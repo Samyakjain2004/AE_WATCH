@@ -1,0 +1,8 @@
+openai  
+requests  
+pydantic  
+python-dateutil  
+rapidfuzz  
+pandas  
+matplotlib  
+python-dotenv 

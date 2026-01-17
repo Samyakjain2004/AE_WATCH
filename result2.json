@@ -1,0 +1,1698 @@
+{
+  "raw_transcript": "Nurse: Thank you for calling the nurse advice line, this is Angela, RN. Can I get your first name and date of birth?\nPatient: Hi, I\u2019m Sam, 04/12/1994.\nNurse: Thanks, Sam. What\u2019s going on today?\nPatient: I started a new antibiotic a couple days ago and I\u2019ve been feeling really nauseated, kind of dizzy, and my stomach feels off.\nNurse: I\u2019m sorry you\u2019re feeling that way. What antibiotic is it, and what dose are you taking?\nPatient: Amoxicillin, 500 milligrams, three times a day.\nNurse: When did you take your first dose?\nPatient: Monday night, so about two days ago.\nNurse: And when did the nausea and dizziness start?\nPatient: Yesterday morning. It\u2019s been on and off since then.\nNurse: On a scale of 0 to 10, how bad is the nausea right now?\nPatient: Maybe a 6.\nNurse: Any vomiting?\nPatient: No vomiting, just feeling like I might.\nNurse: Are you able to keep fluids down\u2014water, electrolyte drinks?\nPatient: Yes, I can drink.\nNurse: Any diarrhea?\nPatient: A little, like twice today, not severe.\nNurse: I\u2019m going to ask a few safety questions. Any chest pain, trouble breathing, wheezing, swelling of your lips, tongue, or throat?\nPatient: No.\nNurse: Any hives, widespread rash, or itching?\nPatient: No rash.\nNurse: Any fainting, confusion, or severe weakness?\nPatient: No fainting\u2014just lightheaded when I stand up.\nNurse: Any fever higher than 100.4\u00b0F, or severe abdominal pain?\nPatient: No fever, and the stomach pain is mild, like cramping.\nNurse: Are you taking any other medications or supplements right now?\nPatient: Just ibuprofen sometimes for the tooth pain, and a multivitamin.\nNurse: Any history of allergy to penicillin or antibiotics?\nPatient: Not that I know of.\nNurse: Thanks. Based on what you\u2019re describing, this can happen with antibiotics, but we still want your prescriber to review it\u2014especially since the dizziness is affecting you. I recommend you call the prescribing clinic today to report the nausea, dizziness, and diarrhea and ask whether you should continue amoxicillin or switch to a different medication.\nPatient: Okay. Should I take the next dose?\nNurse: Since I can\u2019t evaluate you in person, the safest step is to contact your prescriber before your next dose if possible. In the meantime, focus on hydration\u2014small sips frequently\u2014and try bland foods if you can tolerate them. Avoid alcohol, and stand up slowly to reduce the lightheaded feeling.\nPatient: What should I watch for?\nNurse: If you develop trouble breathing, swelling of your face or throat, hives, a rapidly spreading rash, severe or worsening abdominal pain, repeated vomiting so you can\u2019t keep fluids down, signs of dehydration, or you faint\u2014seek emergency care immediately. If symptoms worsen tonight and you can\u2019t reach the clinic, go to urgent care.\nPatient: Got it. I\u2019ll call them now.\nNurse: Good plan. Do you feel safe to drive, or is the dizziness too strong?\nPatient: I think I\u2019m okay, but I\u2019ll have someone else drive if needed.\nNurse: Perfect. Is there anything else you want to go over before we end the call?\nPatient: No, that covers it. Thank you.\nNurse: You\u2019re welcome, Sam. I hope you feel better soon.",
+  "attributed_transcript": {
+    "turns": [
+      {
+        "speaker": "nurse",
+        "text": "Thank you for calling the nurse advice line, this is Angela, RN. Can I get your first name and date of birth?"
+      },
+      {
+        "speaker": "patient",
+        "text": "Hi, I\u2019m Sam, 04/12/1994."
+      },
+      {
+        "speaker": "nurse",
+        "text": "Thanks, Sam. What\u2019s going on today?"
+      },
+      {
+        "speaker": "patient",
+        "text": "I started a new antibiotic a couple days ago and I\u2019ve been feeling really nauseated, kind of dizzy, and my stomach feels off."
+      },
+      {
+        "speaker": "nurse",
+        "text": "I\u2019m sorry you\u2019re feeling that way. What antibiotic is it, and what dose are you taking?"
+      },
+      {
+        "speaker": "patient",
+        "text": "Amoxicillin, 500 milligrams, three times a day."
+      },
+      {
+        "speaker": "nurse",
+        "text": "When did you take your first dose?"
+      },
+      {
+        "speaker": "patient",
+        "text": "Monday night, so about two days ago."
+      },
+      {
+        "speaker": "nurse",
+        "text": "And when did the nausea and dizziness start?"
+      },
+      {
+        "speaker": "patient",
+        "text": "Yesterday morning. It\u2019s been on and off since then."
+      },
+      {
+        "speaker": "nurse",
+        "text": "On a scale of 0 to 10, how bad is the nausea right now?"
+      },
+      {
+        "speaker": "patient",
+        "text": "Maybe a 6."
+      },
+      {
+        "speaker": "nurse",
+        "text": "Any vomiting?"
+      },
+      {
+        "speaker": "patient",
+        "text": "No vomiting, just feeling like I might."
+      },
+      {
+        "speaker": "nurse",
+        "text": "Are you able to keep fluids down\u2014water, electrolyte drinks?"
+      },
+      {
+        "speaker": "patient",
+        "text": "Yes, I can drink."
+      },
+      {
+        "speaker": "nurse",
+        "text": "Any diarrhea?"
+      },
+      {
+        "speaker": "patient",
+        "text": "A little, like twice today, not severe."
+      },
+      {
+        "speaker": "nurse",
+        "text": "I\u2019m going to ask a few safety questions. Any chest pain, trouble breathing, wheezing, swelling of your lips, tongue, or throat?"
+      },
+      {
+        "speaker": "patient",
+        "text": "No."
+      },
+      {
+        "speaker": "nurse",
+        "text": "Any hives, widespread rash, or itching?"
+      },
+      {
+        "speaker": "patient",
+        "text": "No rash."
+      },
+      {
+        "speaker": "nurse",
+        "text": "Any fainting, confusion, or severe weakness?"
+      },
+      {
+        "speaker": "patient",
+        "text": "No fainting\u2014just lightheaded when I stand up."
+      },
+      {
+        "speaker": "nurse",
+        "text": "Any fever higher than 100.4\u00b0F, or severe abdominal pain?"
+      },
+      {
+        "speaker": "patient",
+        "text": "No fever, and the stomach pain is mild, like cramping."
+      },
+      {
+        "speaker": "nurse",
+        "text": "Are you taking any other medications or supplements right now?"
+      },
+      {
+        "speaker": "patient",
+        "text": "Just ibuprofen sometimes for the tooth pain, and a multivitamin."
+      },
+      {
+        "speaker": "nurse",
+        "text": "Any history of allergy to penicillin or antibiotics?"
+      },
+      {
+        "speaker": "patient",
+        "text": "Not that I know of."
+      },
+      {
+        "speaker": "nurse",
+        "text": "Thanks. Based on what you\u2019re describing, this can happen with antibiotics, but we still want your prescriber to review it\u2014especially since the dizziness is affecting you. I recommend you call the prescribing clinic today to report the nausea, dizziness, and diarrhea and ask whether you should continue amoxicillin or switch to a different medication."
+      },
+      {
+        "speaker": "patient",
+        "text": "Okay. Should I take the next dose?"
+      },
+      {
+        "speaker": "nurse",
+        "text": "Since I can\u2019t evaluate you in person, the safest step is to contact your prescriber before your next dose if possible. In the meantime, focus on hydration\u2014small sips frequently\u2014and try bland foods if you can tolerate them. Avoid alcohol, and stand up slowly to reduce the lightheaded feeling."
+      },
+      {
+        "speaker": "patient",
+        "text": "What should I watch for?"
+      },
+      {
+        "speaker": "nurse",
+        "text": "If you develop trouble breathing, swelling of your face or throat, hives, a rapidly spreading rash, severe or worsening abdominal pain, repeated vomiting so you can\u2019t keep fluids down, signs of dehydration, or you faint\u2014seek emergency care immediately. If symptoms worsen tonight and you can\u2019t reach the clinic, go to urgent care."
+      },
+      {
+        "speaker": "patient",
+        "text": "Got it. I\u2019ll call them now."
+      },
+      {
+        "speaker": "nurse",
+        "text": "Good plan. Do you feel safe to drive, or is the dizziness too strong?"
+      },
+      {
+        "speaker": "patient",
+        "text": "I think I\u2019m okay, but I\u2019ll have someone else drive if needed."
+      },
+      {
+        "speaker": "nurse",
+        "text": "Perfect. Is there anything else you want to go over before we end the call?"
+      },
+      {
+        "speaker": "patient",
+        "text": "No, that covers it. Thank you."
+      },
+      {
+        "speaker": "nurse",
+        "text": "You\u2019re welcome, Sam. I hope you feel better soon."
+      }
+    ]
+  },
+  "extracted_facts": {
+    "medications": [
+      {
+        "mention": "Amoxicillin",
+        "normalized_name_hint": "amoxicillin",
+        "start_days_ago": 2,
+        "change_days_ago": null,
+        "dose": "500 mg",
+        "frequency": "three times a day"
+      },
+      {
+        "mention": "ibuprofen",
+        "normalized_name_hint": "ibuprofen",
+        "start_days_ago": null,
+        "change_days_ago": null,
+        "dose": null,
+        "frequency": "sometimes"
+      },
+      {
+        "mention": "multivitamin",
+        "normalized_name_hint": "multivitamin",
+        "start_days_ago": null,
+        "change_days_ago": null,
+        "dose": null,
+        "frequency": null
+      }
+    ],
+    "symptoms": [
+      {
+        "text": "nausea",
+        "onset_days_ago": 1,
+        "severity": "6/10",
+        "negated": false,
+        "quote": "I\u2019ve been feeling really nauseated"
+      },
+      {
+        "text": "dizziness",
+        "onset_days_ago": 1,
+        "severity": null,
+        "negated": false,
+        "quote": "kind of dizzy"
+      },
+      {
+        "text": "stomach feels off",
+        "onset_days_ago": 1,
+        "severity": null,
+        "negated": false,
+        "quote": "my stomach feels off"
+      },
+      {
+        "text": "diarrhea",
+        "onset_days_ago": 0,
+        "severity": "mild",
+        "negated": false,
+        "quote": "A little, like twice today, not severe."
+      },
+      {
+        "text": "abdominal cramping (mild)",
+        "onset_days_ago": null,
+        "severity": "mild",
+        "negated": false,
+        "quote": "the stomach pain is mild, like cramping."
+      },
+      {
+        "text": "vomiting",
+        "onset_days_ago": null,
+        "severity": null,
+        "negated": true,
+        "quote": "No vomiting"
+      },
+      {
+        "text": "chest pain",
+        "onset_days_ago": null,
+        "severity": null,
+        "negated": true,
+        "quote": "Any chest pain... ? PATIENT: No."
+      },
+      {
+        "text": "trouble breathing",
+        "onset_days_ago": null,
+        "severity": null,
+        "negated": true,
+        "quote": "Any chest pain, trouble breathing... ? PATIENT: No."
+      },
+      {
+        "text": "wheezing",
+        "onset_days_ago": null,
+        "severity": null,
+        "negated": true,
+        "quote": "Any chest pain, trouble breathing, wheezing... ? PATIENT: No."
+      },
+      {
+        "text": "swelling of lips, tongue, or throat",
+        "onset_days_ago": null,
+        "severity": null,
+        "negated": true,
+        "quote": "swelling of your lips, tongue, or throat? PATIENT: No."
+      },
+      {
+        "text": "hives",
+        "onset_days_ago": null,
+        "severity": null,
+        "negated": true,
+        "quote": "Any hives... ? PATIENT: No rash."
+      },
+      {
+        "text": "widespread rash",
+        "onset_days_ago": null,
+        "severity": null,
+        "negated": true,
+        "quote": "Any hives, widespread rash, or itching? PATIENT: No rash."
+      },
+      {
+        "text": "itching",
+        "onset_days_ago": null,
+        "severity": null,
+        "negated": true,
+        "quote": "Any hives, widespread rash, or itching? PATIENT: No rash."
+      },
+      {
+        "text": "fainting",
+        "onset_days_ago": null,
+        "severity": null,
+        "negated": true,
+        "quote": "No fainting\u2014just lightheaded when I stand up."
+      },
+      {
+        "text": "confusion",
+        "onset_days_ago": null,
+        "severity": null,
+        "negated": true,
+        "quote": "Any fainting, confusion, or severe weakness? PATIENT: No fainting"
+      },
+      {
+        "text": "severe weakness",
+        "onset_days_ago": null,
+        "severity": null,
+        "negated": true,
+        "quote": "Any fainting, confusion, or severe weakness? PATIENT: No fainting"
+      },
+      {
+        "text": "lightheadedness on standing",
+        "onset_days_ago": 1,
+        "severity": null,
+        "negated": false,
+        "quote": "just lightheaded when I stand up."
+      },
+      {
+        "text": "fever >100.4F",
+        "onset_days_ago": null,
+        "severity": null,
+        "negated": true,
+        "quote": "No fever"
+      },
+      {
+        "text": "severe abdominal pain",
+        "onset_days_ago": null,
+        "severity": null,
+        "negated": true,
+        "quote": "Any fever higher than 100.4\u00b0F, or severe abdominal pain? PATIENT: No fever"
+      }
+    ],
+    "conditions": [
+      "tooth pain"
+    ],
+    "risk_factors": [
+      "recent start of antibiotic"
+    ],
+    "red_flags": [
+      {
+        "text": "lightheadedness when standing (possible near-syncope risk)",
+        "quote": "just lightheaded when I stand up."
+      }
+    ],
+    "missing_info": [
+      {
+        "field": "medications[1].dose",
+        "question": "What dose of ibuprofen are you taking (mg) and how often per day when you use it?"
+      },
+      {
+        "field": "symptoms[5].onset_days_ago",
+        "question": "Have you had any vomiting at all since symptoms started, and if yes, when did it begin (how many days ago)?"
+      },
+      {
+        "field": "symptoms[4].onset_days_ago",
+        "question": "When did the abdominal cramping start (how many days ago)?"
+      },
+      {
+        "field": "risk_factors",
+        "question": "Do you have any other medical conditions (e.g., kidney disease, pregnancy) or medication allergies?"
+      }
+    ]
+  },
+  "drug_normalization": [
+    {
+      "input": "Amoxicillin",
+      "rxcui": "723",
+      "canonical": "AMOXICILLIN",
+      "synonyms": [
+        "AMOXICILLIN"
+      ],
+      "start_days_ago": 2,
+      "change_days_ago": null
+    },
+    {
+      "input": "ibuprofen",
+      "rxcui": "5640",
+      "canonical": "IBUPROFEN",
+      "synonyms": [
+        "IBUPROFEN"
+      ],
+      "start_days_ago": null,
+      "change_days_ago": null
+    },
+    {
+      "input": "multivitamin",
+      "rxcui": "604365",
+      "canonical": "MULTIVITAMIN",
+      "synonyms": [
+        "MULTIVITAMIN"
+      ],
+      "start_days_ago": null,
+      "change_days_ago": null
+    }
+  ],
+  "flags": [
+    {
+      "type": "possible_ae_occurring",
+      "drug": "IBUPROFEN",
+      "event_meddra_pt": "ABDOMINAL DISCOMFORT",
+      "symptom": "stomach feels off",
+      "symptom_quote": "my stomach feels off",
+      "symptom_onset_days_ago": 1,
+      "drug_start_days_ago": null,
+      "timing_plausible": null,
+      "nDE": 3149,
+      "nD": 56338,
+      "nE": 55410,
+      "N": 6750933,
+      "ror": 7.525832993486696,
+      "ror_lcl95": 7.252753996224375,
+      "ror_ucl95": 7.80919389728888,
+      "serious_fraction": 0.909495077802477,
+      "score": 14,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "AMOXICILLIN",
+      "event_meddra_pt": "DIARRHOEA",
+      "symptom": "diarrhea",
+      "symptom_quote": "A little, like twice today, not severe.",
+      "symptom_onset_days_ago": 0,
+      "drug_start_days_ago": 2,
+      "timing_plausible": true,
+      "nDE": 1267,
+      "nD": 21230,
+      "nE": 204754,
+      "N": 6750933,
+      "ror": 2.0362684138863028,
+      "ror_lcl95": 1.9235526279952628,
+      "ror_ucl95": 2.155589087111398,
+      "serious_fraction": 0.797947908445146,
+      "score": 13,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "AMOXICILLIN",
+      "event_meddra_pt": "NAUSEA",
+      "symptom": "nausea",
+      "symptom_quote": "I\u2019ve been feeling really nauseated",
+      "symptom_onset_days_ago": 1,
+      "drug_start_days_ago": 2,
+      "timing_plausible": true,
+      "nDE": 1185,
+      "nD": 21230,
+      "nE": 219540,
+      "N": 6750933,
+      "ror": 1.7635649936624447,
+      "ror_lcl95": 1.6629579754555512,
+      "ror_ucl95": 1.8702586191449726,
+      "serious_fraction": 0.8320675105485232,
+      "score": 13,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "AMOXICILLIN",
+      "event_meddra_pt": "ABDOMINAL DISCOMFORT",
+      "symptom": "stomach feels off",
+      "symptom_quote": "my stomach feels off",
+      "symptom_onset_days_ago": 1,
+      "drug_start_days_ago": 2,
+      "timing_plausible": true,
+      "nDE": 298,
+      "nD": 21230,
+      "nE": 55410,
+      "N": 6750933,
+      "ror": 1.727021780714816,
+      "ror_lcl95": 1.5400896512259723,
+      "ror_ucl95": 1.9366432523516426,
+      "serious_fraction": 0.714765100671141,
+      "score": 13,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "AMOXICILLIN",
+      "event_meddra_pt": "DIZZINESS",
+      "symptom": "dizziness",
+      "symptom_quote": "kind of dizzy",
+      "symptom_onset_days_ago": 1,
+      "drug_start_days_ago": 2,
+      "timing_plausible": true,
+      "nDE": 634,
+      "nD": 21230,
+      "nE": 134941,
+      "N": 6750933,
+      "ror": 1.5127906946715652,
+      "ror_lcl95": 1.397620684545108,
+      "ror_ucl95": 1.637451213474091,
+      "serious_fraction": 0.8438485804416404,
+      "score": 13,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "AMOXICILLIN",
+      "event_meddra_pt": "DIZZINESS",
+      "symptom": "lightheadedness on standing",
+      "symptom_quote": "just lightheaded when I stand up.",
+      "symptom_onset_days_ago": 1,
+      "drug_start_days_ago": 2,
+      "timing_plausible": true,
+      "nDE": 634,
+      "nD": 21230,
+      "nE": 134941,
+      "N": 6750933,
+      "ror": 1.5127906946715652,
+      "ror_lcl95": 1.397620684545108,
+      "ror_ucl95": 1.637451213474091,
+      "serious_fraction": 0.8438485804416404,
+      "score": 13,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "IBUPROFEN",
+      "event_meddra_pt": "ABDOMINAL PAIN",
+      "symptom": "abdominal cramping (mild)",
+      "symptom_quote": "the stomach pain is mild, like cramping.",
+      "symptom_onset_days_ago": null,
+      "drug_start_days_ago": null,
+      "timing_plausible": null,
+      "nDE": 1581,
+      "nD": 56338,
+      "nE": 63985,
+      "N": 6750933,
+      "ror": 3.069493614375899,
+      "ror_lcl95": 2.918011834033008,
+      "ror_ucl95": 3.228839218130409,
+      "serious_fraction": 0.9101834282099937,
+      "score": 12,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "AMOXICILLIN",
+      "event_meddra_pt": "ABDOMINAL PAIN",
+      "symptom": "abdominal cramping (mild)",
+      "symptom_quote": "the stomach pain is mild, like cramping.",
+      "symptom_onset_days_ago": null,
+      "drug_start_days_ago": 2,
+      "timing_plausible": null,
+      "nDE": 567,
+      "nD": 21230,
+      "nE": 63985,
+      "N": 6750933,
+      "ror": 2.88688793204029,
+      "ror_lcl95": 2.654921556010922,
+      "ror_ucl95": 3.1391217240640676,
+      "serious_fraction": 0.9382716049382716,
+      "score": 12,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "IBUPROFEN",
+      "event_meddra_pt": "NAUSEA",
+      "symptom": "nausea",
+      "symptom_quote": "I\u2019ve been feeling really nauseated",
+      "symptom_onset_days_ago": 1,
+      "drug_start_days_ago": null,
+      "timing_plausible": null,
+      "nDE": 4385,
+      "nD": 56338,
+      "nE": 219540,
+      "N": 6750933,
+      "ror": 2.5420808480717514,
+      "ror_lcl95": 2.46419296422847,
+      "ror_ucl95": 2.622430601800082,
+      "serious_fraction": 0.7792474344355759,
+      "score": 12,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "IBUPROFEN",
+      "event_meddra_pt": "DIZZINESS",
+      "symptom": "dizziness",
+      "symptom_quote": "kind of dizzy",
+      "symptom_onset_days_ago": 1,
+      "drug_start_days_ago": null,
+      "timing_plausible": null,
+      "nDE": 2599,
+      "nD": 56338,
+      "nE": 134941,
+      "N": 6750933,
+      "ror": 2.398556036671793,
+      "ror_lcl95": 2.3051166010579727,
+      "ror_ucl95": 2.4957831019976293,
+      "serious_fraction": 0.7960754136206233,
+      "score": 12,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "IBUPROFEN",
+      "event_meddra_pt": "DIZZINESS",
+      "symptom": "lightheadedness on standing",
+      "symptom_quote": "just lightheaded when I stand up.",
+      "symptom_onset_days_ago": 1,
+      "drug_start_days_ago": null,
+      "timing_plausible": null,
+      "nDE": 2599,
+      "nD": 56338,
+      "nE": 134941,
+      "N": 6750933,
+      "ror": 2.398556036671793,
+      "ror_lcl95": 2.3051166010579727,
+      "ror_ucl95": 2.4957831019976293,
+      "serious_fraction": 0.7960754136206233,
+      "score": 12,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "IBUPROFEN",
+      "event_meddra_pt": "DIARRHOEA",
+      "symptom": "diarrhea",
+      "symptom_quote": "A little, like twice today, not severe.",
+      "symptom_onset_days_ago": 0,
+      "drug_start_days_ago": null,
+      "timing_plausible": null,
+      "nDE": 3731,
+      "nD": 56338,
+      "nE": 204754,
+      "N": 6750933,
+      "ror": 2.291250884738821,
+      "ror_lcl95": 2.215766043580157,
+      "ror_ucl95": 2.3693072795419945,
+      "serious_fraction": 0.8027338515143393,
+      "score": 12,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "MULTIVITAMIN",
+      "event_meddra_pt": "DIARRHOEA",
+      "symptom": "diarrhea",
+      "symptom_quote": "A little, like twice today, not severe.",
+      "symptom_onset_days_ago": 0,
+      "drug_start_days_ago": null,
+      "timing_plausible": null,
+      "nDE": 186,
+      "nD": 2884,
+      "nE": 204754,
+      "N": 6750933,
+      "ror": 2.2106833072979057,
+      "ror_lcl95": 1.9056788880883395,
+      "ror_ucl95": 2.564503765935124,
+      "serious_fraction": 0.3064516129032258,
+      "score": 10,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "MULTIVITAMIN",
+      "event_meddra_pt": "DIZZINESS",
+      "symptom": "dizziness",
+      "symptom_quote": "kind of dizzy",
+      "symptom_onset_days_ago": 1,
+      "drug_start_days_ago": null,
+      "timing_plausible": null,
+      "nDE": 117,
+      "nD": 2884,
+      "nE": 134941,
+      "N": 6750933,
+      "ror": 2.0825467064827556,
+      "ror_lcl95": 1.7313442269334922,
+      "ror_ucl95": 2.5049904676459085,
+      "serious_fraction": 0.47863247863247865,
+      "score": 10,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "MULTIVITAMIN",
+      "event_meddra_pt": "DIZZINESS",
+      "symptom": "lightheadedness on standing",
+      "symptom_quote": "just lightheaded when I stand up.",
+      "symptom_onset_days_ago": 1,
+      "drug_start_days_ago": null,
+      "timing_plausible": null,
+      "nDE": 117,
+      "nD": 2884,
+      "nE": 134941,
+      "N": 6750933,
+      "ror": 2.0825467064827556,
+      "ror_lcl95": 1.7313442269334922,
+      "ror_ucl95": 2.5049904676459085,
+      "serious_fraction": 0.47863247863247865,
+      "score": 10,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "MULTIVITAMIN",
+      "event_meddra_pt": "NAUSEA",
+      "symptom": "nausea",
+      "symptom_quote": "I\u2019ve been feeling really nauseated",
+      "symptom_onset_days_ago": 1,
+      "drug_start_days_ago": null,
+      "timing_plausible": null,
+      "nDE": 166,
+      "nD": 2884,
+      "nE": 219540,
+      "N": 6750933,
+      "ror": 1.822736287018175,
+      "ror_lcl95": 1.5586212161289608,
+      "ror_ucl95": 2.131606792998966,
+      "serious_fraction": 0.40963855421686746,
+      "score": 10,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "MULTIVITAMIN",
+      "event_meddra_pt": "ABDOMINAL DISCOMFORT",
+      "symptom": "stomach feels off",
+      "symptom_quote": "my stomach feels off",
+      "symptom_onset_days_ago": 1,
+      "drug_start_days_ago": null,
+      "timing_plausible": null,
+      "nDE": 28,
+      "nD": 2884,
+      "nE": 55410,
+      "N": 6750933,
+      "ror": 1.2056946246300444,
+      "ror_lcl95": 0.8335950596098934,
+      "ror_ucl95": 1.7438917266881204,
+      "serious_fraction": 0.42857142857142855,
+      "score": 8,
+      "urgency": "urgent"
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "MULTIVITAMIN",
+      "event_meddra_pt": "ABDOMINAL PAIN",
+      "symptom": "abdominal cramping (mild)",
+      "symptom_quote": "the stomach pain is mild, like cramping.",
+      "symptom_onset_days_ago": null,
+      "drug_start_days_ago": null,
+      "timing_plausible": null,
+      "nDE": 31,
+      "nD": 2884,
+      "nE": 63985,
+      "N": 6750933,
+      "ror": 1.1537300789025362,
+      "ror_lcl95": 0.8120204900890624,
+      "ror_ucl95": 1.6392358459063736,
+      "serious_fraction": 0.7096774193548387,
+      "score": 8,
+      "urgency": "urgent"
+    },
+    {
+      "type": "elevated_risk",
+      "drug": "IBUPROFEN",
+      "event_meddra_pt": "BLISTER",
+      "nDE": 2635,
+      "nD": 56338,
+      "nE": 18127,
+      "N": 6750933,
+      "ror": 21.15714674748195,
+      "ror_lcl95": 20.2836442302403,
+      "ror_ucl95": 22.06826610709013,
+      "serious_fraction": 0.9798861480075901,
+      "score": 8,
+      "urgency": "monitor"
+    },
+    {
+      "type": "elevated_risk",
+      "drug": "IBUPROFEN",
+      "event_meddra_pt": "ARTHROPATHY",
+      "nDE": 2555,
+      "nD": 56338,
+      "nE": 19179,
+      "N": 6750933,
+      "ror": 19.086346039963335,
+      "ror_lcl95": 18.292150445000228,
+      "ror_ucl95": 19.91502345514518,
+      "serious_fraction": 0.9886497064579256,
+      "score": 8,
+      "urgency": "monitor"
+    },
+    {
+      "type": "elevated_risk",
+      "drug": "AMOXICILLIN",
+      "event_meddra_pt": "CHRONIC KIDNEY DISEASE",
+      "nDE": 731,
+      "nD": 21230,
+      "nE": 15941,
+      "N": 6750933,
+      "ror": 15.752185932413704,
+      "ror_lcl95": 14.607460867100272,
+      "ror_ucl95": 16.986618270406414,
+      "serious_fraction": 1.0,
+      "score": 8,
+      "urgency": "monitor"
+    },
+    {
+      "type": "elevated_risk",
+      "drug": "IBUPROFEN",
+      "event_meddra_pt": "DISCOMFORT",
+      "nDE": 2627,
+      "nD": 56338,
+      "nE": 25186,
+      "N": 6750933,
+      "ror": 14.467862985432953,
+      "ror_lcl95": 13.882717674931511,
+      "ror_ucl95": 15.077671697036331,
+      "serious_fraction": 0.950513894175866,
+      "score": 8,
+      "urgency": "monitor"
+    },
+    {
+      "type": "elevated_risk",
+      "drug": "IBUPROFEN",
+      "event_meddra_pt": "SWELLING",
+      "nDE": 2861,
+      "nD": 56338,
+      "nE": 31398,
+      "N": 6750933,
+      "ror": 12.499016747620841,
+      "ror_lcl95": 12.016560931923562,
+      "ror_ucl95": 13.000842798730632,
+      "serious_fraction": 0.9688919958056623,
+      "score": 8,
+      "urgency": "monitor"
+    },
+    {
+      "type": "elevated_risk",
+      "drug": "IBUPROFEN",
+      "event_meddra_pt": "SINUSITIS",
+      "nDE": 2655,
+      "nD": 56338,
+      "nE": 30811,
+      "N": 6750933,
+      "ror": 11.711722035681527,
+      "ror_lcl95": 11.244798707548851,
+      "ror_ucl95": 12.198033651681744,
+      "serious_fraction": 0.9457627118644067,
+      "score": 8,
+      "urgency": "monitor"
+    },
+    {
+      "type": "elevated_risk",
+      "drug": "IBUPROFEN",
+      "event_meddra_pt": "JOINT SWELLING",
+      "nDE": 3450,
+      "nD": 56338,
+      "nE": 42916,
+      "N": 6750933,
+      "ror": 11.001418324141781,
+      "ror_lcl95": 10.614199622099237,
+      "ror_ucl95": 11.40276322773977,
+      "serious_fraction": 0.9698550724637681,
+      "score": 8,
+      "urgency": "monitor"
+    }
+  ],
+  "creative": {
+    "case_narrative": {
+      "summary": "Sam started amoxicillin 500 milligrams three times a day on Monday night (about two days ago). Since yesterday morning, they have had intermittent nausea (rated 6/10) and dizziness, with their stomach feeling off. Today they also report mild diarrhea twice and mild cramping. They deny vomiting, fever, rash/hives, swelling of lips/tongue/throat, trouble breathing, chest pain, fainting, confusion, or severe weakness, but note lightheadedness when standing.",
+      "timeline": [
+        "- Monday night (about two days ago): Started amoxicillin 500 milligrams, three times a day.",
+        "- Yesterday morning (about one day ago): Nausea and dizziness began; symptoms on and off since then.",
+        "- Today: Mild diarrhea \"like twice today\" and mild cramping."
+      ],
+      "symptom_evidence": [
+        {
+          "symptom_text": "nausea",
+          "meddra_pt": "NAUSEA",
+          "onset_days_ago": 1,
+          "quote": "I\u2019ve been feeling really nauseated"
+        },
+        {
+          "symptom_text": "dizziness",
+          "meddra_pt": "DIZZINESS",
+          "onset_days_ago": 1,
+          "quote": "kind of dizzy"
+        },
+        {
+          "symptom_text": "stomach feels off",
+          "meddra_pt": "ABDOMINAL DISCOMFORT",
+          "onset_days_ago": 1,
+          "quote": "my stomach feels off"
+        },
+        {
+          "symptom_text": "diarrhea",
+          "meddra_pt": "DIARRHOEA",
+          "onset_days_ago": 0,
+          "quote": "A little, like twice today, not severe."
+        },
+        {
+          "symptom_text": "abdominal cramping (mild)",
+          "meddra_pt": "ABDOMINAL PAIN",
+          "onset_days_ago": null,
+          "quote": "the stomach pain is mild, like cramping."
+        },
+        {
+          "symptom_text": "lightheadedness on standing",
+          "meddra_pt": "DIZZINESS",
+          "onset_days_ago": 1,
+          "quote": "just lightheaded when I stand up."
+        }
+      ]
+    },
+    "why_flagged": {
+      "items": [
+        {
+          "flag_index": 0,
+          "headline": "Possible adverse effects after starting amoxicillin (GI symptoms and dizziness)",
+          "rationale": "Symptoms (nausea, dizziness/lightheadedness, abdominal discomfort/cramping, and diarrhea) began after starting amoxicillin and have persisted on and off, prompting need for prescriber review before the next dose.",
+          "evidence_quotes": [
+            "I started a new antibiotic a couple days ago",
+            "Amoxicillin, 500 milligrams, three times a day.",
+            "Monday night, so about two days ago.",
+            "Yesterday morning. It\u2019s been on and off since then.",
+            "Maybe a 6.",
+            "A little, like twice today, not severe.",
+            "just lightheaded when I stand up."
+          ],
+          "uncertainties": [
+            "Exact onset timing for abdominal cramping is not stated.",
+            "Ibuprofen and multivitamin use timing/dose are not specified, so contribution to symptoms is unclear."
+          ]
+        }
+      ]
+    },
+    "follow_up_questions": {
+      "questions": [
+        "When did the abdominal cramping start (how many days ago)?",
+        "What dose of ibuprofen are you taking (mg) and how often per day when you use it?",
+        "Have you had any vomiting at all since symptoms started, and if yes, when did it begin (how many days ago)?",
+        "Do you have any other medical conditions (e.g., kidney disease, pregnancy) or medication allergies?"
+      ]
+    },
+    "patient_script": {
+      "triage": "urgent",
+      "script": "Because your nausea, dizziness/lightheadedness, and diarrhea started after beginning amoxicillin, please call the prescribing clinic today to report these symptoms and ask whether you should continue amoxicillin or switch medications. If possible, contact them before your next dose. In the meantime, focus on hydration (small sips frequently), try bland foods if tolerated, avoid alcohol, and stand up slowly to reduce lightheadedness.",
+      "emergency_instructions_block": null
+    },
+    "coding_assistant": {
+      "meddra_suggestions": [
+        {
+          "symptom_text": "lightheadedness on standing",
+          "current_meddra_pt": "DIZZINESS",
+          "suggested_meddra_pt": "DIZZINESS",
+          "note": "Reported as positional: \"just lightheaded when I stand up.\" Current PT already mapped to DIZZINESS."
+        },
+        {
+          "symptom_text": "abdominal cramping (mild)",
+          "current_meddra_pt": "ABDOMINAL PAIN",
+          "suggested_meddra_pt": "ABDOMINAL PAIN",
+          "note": "Described as mild cramping: \"the stomach pain is mild, like cramping.\""
+        },
+        {
+          "symptom_text": "stomach feels off",
+          "current_meddra_pt": "ABDOMINAL DISCOMFORT",
+          "suggested_meddra_pt": "ABDOMINAL DISCOMFORT",
+          "note": "Patient wording: \"my stomach feels off.\""
+        }
+      ],
+      "contradictions_or_negation_issues": [
+        {
+          "issue": "Vomiting is denied, but patient reports feeling like they might vomit (nausea without emesis); ensure vomiting is not coded as present.",
+          "evidence_quotes": [
+            "No vomiting, just feeling like I might."
+          ],
+          "needs_human_review": true
+        }
+      ],
+      "needs_human_review_tags": [
+        "onset_missing_abdominal_cramping",
+        "concomitant_medication_dose_missing_ibuprofen",
+        "causality_multiple_possible_agents"
+      ]
+    }
+  },
+  "creative_error": null,
+  "drug_labels": [
+    {
+      "drug": "AMOXICILLIN AND CLAVULANATE POTASSIUM",
+      "source": "openFDA",
+      "rxcui": "723",
+      "boxed_warning": null,
+      "contraindications": "4 CONTRAINDICATIONS History of a serious hypersensitivity reaction (e.g., anaphylaxis or Stevens-Johnson syndrome) to Amoxicillin and Clavulanate Potassium or to other beta\u2011lactams (e.g., penicillins or cephalosporins). ( 4.1 ) History of cholestatic jaundice/hepatic dysfunction associated with Amoxicillin and Clavulanate Potassium. ( 4.2 ) 4.1 Serious Hypersensitivity Reactions Amoxicillin and Clavulanate Potassium is contraindicated in patients with a history of serious hypersensitivity reactions (e.g., anaphylaxis or Stevens-Johnson syndrome) to amoxicillin, clavulanate or to other beta\u2011lactam antibacterial drugs (e.g., penicillins and cephalosporins). 4.2 Cholestatic Jaundice/Hepatic Dysfunction Amoxicillin and Clavulanate Potassium is contraindicated in patients with a previous history of cholestatic jaundice/hepatic dysfunction associated with Amoxicillin and Clavulanate Potassium.",
+      "warnings_and_precautions": null,
+      "drug_interactions": "7 DRUG INTERACTIONS Co\u2011administration with probenecid is not recommended. ( 7.1 ) Concomitant use of Amoxicillin and Clavulanate Potassium and oral anticoagulants may increase the prolongation of prothrombin time.( 7.2 ) Co-administration with allopurinol increases the risk of rash. ( 7.3 ) Amoxicillin and Clavulanate Potassium may reduce efficacy of oral contraceptives. ( 7.4 ) 7.1 Probenecid Probenecid decreases the renal tubular secretion of amoxicillin but does not delay renal excretion of clavulanic acid. Concurrent use with Amoxicillin and Clavulanate Potassium may result in increased and prolonged blood concentrations of amoxicillin. Co-administration of probenecid is not recommended. 7.2 Oral Anticoagulants Abnormal prolongation of prothrombin time (increased international normalized ratio [INR]) has been reported in patients receiving amoxicillin and oral anticoagulants. Appropriate monitoring should be undertaken when anticoagulants are prescribed concurrently with Amoxicillin and Clavulanate Potassium. Adjustments in the dose of oral anticoagulants may be necessary to maintain the desired level of anticoagulation. 7.3 Allopurinol The concurrent administration of allopurinol and amoxicillin increases the incidence of rashes in patients receiving both drugs as compared to patients receiving amoxicillin alone. It is not known whether this potentiation of amoxicillin rashes is due to allopurinol or the hyperuricemia present in these patients. 7.4 Oral Contraceptives Amoxicillin and Clavulanate Potassium may affect intestinal flora, leading to lower estrogen reabsorption and reduced efficacy of combined oral estrogen/progesterone contraceptives. 7.5 Effects on Laboratory Tests High urine concentrations of amoxicillin may result in false-positive reactions when testing for the presence of glucose in urine using CLINITEST \u00ae , Benedict's Solution, or Fehling's Solution. Since this effect may also occur with Amoxicillin and Clavulanate Potassium, it is recommended that glucose tests based on enzymatic glucose oxidase reactions be used. Following administration of amoxicillin to pregnant women, a transient decrease in plasma concentration of total conjugated estriol, estriol-glucuronide, conjugated estrone, and estradiol has been noted.",
+      "use_in_specific_populations": "8 USE IN SPECIFIC POPULATIONS Pediatric Use: Modify dose in patients 12 weeks or younger. ( 8.4 ) Renal Impairment: Dosage adjustment is recommended for severe renal impairment (GFR less than 30mL/min). ( 2.4 , 8.6 ) Revised 03/2024 8.1 Pregnancy Teratogenic Effects : Pregnancy Category B. Reproduction studies performed in pregnant rats and mice given Amoxicillin and Clavulanate Potassium (2:1 ratio formulation of amoxicillin:clavulanate) at oral doses up to 1200 mg/kg/day revealed no evidence of harm to the fetus due to Amoxicillin and Clavulanate Potassium. The amoxicillin doses in rats and mice (based on body surface area) were approximately 4 and 2 times the maximum recommended adult human oral dose (875 mg every 12 hours). For clavulanate, these dose multiples were approximately 9 and 4 times the maximum recommended adult human oral dose (125 mg every 8 hours). There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed. 8.2 Labor and Delivery Oral ampicillin\u2011class antibacterials are poorly absorbed during labor. It is not known whether use of amoxicillin and clavulanate potassium in humans during labor or delivery has immediate or delayed adverse effects on the fetus, prolongs the duration of labor, or increases the likelihood of the necessity for an obstetrical intervention. 8.3 Nursing Mothers Amoxicillin has been shown to be excreted in human milk. Amoxicillin and clavulanate potassium use by nursing mothers may lead to sensitization of infants. Caution should be exercised when amoxicillin and clavulanate potassium is administered to a nursing woman. 8.4 Pediatric Use The safety and effectiveness of Amoxicillin and Clavulanate Potassium for Oral Suspension and Chewable Tablets have been established in pediatric patients. Use of Amoxicillin and Clavulanate Potassium in pediatric patients is supported by evidence from studies of Amoxicillin and Clavulanate Potassium Tablets in adults with additional data from a study of Amoxicillin and Clavulanate Potassium for Oral Suspension in pediatric patients aged 2 months to 12 years with acute otitis media [see Clinical Studies ( 14.2 )] . Because of incompletely developed renal function in neonates and young infants, the elimination of amoxicillin may be delayed; clavulanate elimination is unaltered in this age group. Dosing of Amoxicillin and Clavulanate Potassium should be modified in pediatric patients aged less than 12 weeks (less than 3 months) [see Dosage and Administration ( 2.3 )]. 8.5 Geriatric Use Of the 3,119 patients in an analysis of clinical studies of Amoxicillin and Clavulanate Potassium, 32% were greater than or equal to 65 years old, and 14% were greater than or equal to 75 years old. No overall differences in safety or effectiveness were observed between these subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out. This drug is known to be substantially excreted by the kidney, and the risk of adverse reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function. 8.6 Renal Impairment Amoxicillin is primarily eliminated by the kidney and dosage adjustment is usually required in patients with severe renal impairment (GFR less than 30 mL/min). See Patients with Renal Impairment [see Dosage and Administration ( 2.4 )] for specific recommendations in patients with renal impairment.",
+      "adverse_reactions": "6 ADVERSE REACTIONS The following are discussed in more detail in other sections of the labeling: Anaphylactic reactions [see Warnings and Precautions (5.1) ] Severe Cutaneous Adverse Reactions [see Warnings and Precautions ( 5.2 )] Hepatic Dysfunction [see Warnings and Precautions (5.3) ] Clostridioides difficile Associated Diarrhea (CDAD) [see Warnings and Precautions (5.4) ] The most frequently reported adverse effects were diarrhea/loose stools (9%), nausea (3%), skin rashes and urticaria (3%), vomiting (1%) and vaginitis (1%). ( 6.1 ) To report SUSPECTED ADVERSE REACTIONS, contact USAntibiotics, LLC at 1-844-454-5532 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch . 6.1 Clinical Trial Experience Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. The most frequently reported adverse reactions were diarrhea/loose stools (9%), nausea (3%), skin rashes and urticaria (3%), vomiting (1%) and vaginitis (1%). Less than 3% of patients discontinued therapy because of drug\u2011related adverse reactions. The overall incidence of adverse reactions, and in particular diarrhea, increased with the higher recommended dose. Other less frequently reported adverse reactions (less than 1%) include: Abdominal discomfort, flatulence, and headache. In pediatric patients (aged 2 months to 12 years), 1 US/Canadian clinical trial was conducted which compared 45/6.4 mg/kg/day (divided every 12 hours) of Amoxicillin and Clavulanate Potassium for 10 days versus 40/10 mg/kg/day (divided every 8 hours) of Amoxicillin and Clavulanate Potassium for 10 days in the treatment of acute otitis media. A total of 575 patients were enrolled, and only the suspension formulations were used in this trial. Overall, the adverse reactions seen were comparable to that noted above; however, there were differences in the rates of diarrhea, skin rashes/urticaria, and diaper area rashes. [see Clinical Studies ( 14.2 )] . 6.2 Postmarketing Experience In addition to adverse reactions reported from clinical trials, the following have been identified during postmarketing use of Amoxicillin and Clavulanate Potassium. Because they are reported voluntarily from a population of unknown size, estimates of frequency cannot be made. These events have been chosen for inclusion due to a combination of their seriousness, frequency of reporting, or potential causal connection to Amoxicillin and Clavulanate Potassium. Gastrointestinal: Indigestion, gastritis, stomatitis, glossitis, black \u201chairy\u201d tongue, mucocutaneous candidiasis, enterocolitis, and hemorrhagic/pseudomembranous colitis. Onset of pseudomembranous colitis symptoms may occur during or after antibacterial treatment. [see Warnings and Precautions ( 5.4 )] . Immune: Hypersensitivity reactions, anaphylactic/anaphylactoid reactions (including shock), angioedema, serum sickness-like reactions (urticaria or skin rash accompanied by arthritis, arthralgia, myalgia, and frequently fever), hypersensitivity vasculitis [see Warnings and Precautions ( 5.1 )] . Skin and Appendages: Rashes, pruritus, urticaria, erythema multiforme, SJS, TEN, DRESS, AGEP, exfoliative dermatitis [see Warnings and Precautions ( 5.2 )] . Liver: Hepatic dysfunction, including hepatitis and cholestatic jaundice, increases in serum transaminases (AST and/or ALT), serum bilirubin, and/or alkaline phosphatase, has been reported with Amoxicillin and Clavulanate Potassium. It has been reported more commonly in the elderly, in males, or in patients on prolonged treatment. The histologic findings on liver biopsy have consisted of predominantly cholestatic, hepatocellular, or mixed cholestatic hepatocellular changes. The onset of signs/symptoms of hepatic dysfunction may occur during or several weeks after therapy has been discontinued. The hepatic dysfunction, which may be severe, is usually reversible. Deaths have been reported [see Contraindications ( 4.2 ), Warnings and Precautions ( 5.3 )] . Renal: Interstitial nephritis, hematuria, and crystalluria have been reported [see Overdosage ( 10 )] . Hemic and Lymphatic Systems: Anemia, including hemolytic anemia, thrombocytopenia, thrombocytopenic purpura, eosinophilia, leukopenia, and agranulocytosis have been reported. These reactions are usually reversible on discontinuation of therapy and are believed to be hypersensitivity phenomena. Thrombocytosis was noted in less than 1% of the patients treated with Amoxicillin and Clavulanate Potassium. There have been reports of increased prothrombin time in patients receiving Amoxicillin and Clavulanate Potassium and anticoagulant therapy concomitantly [see Drug Interactions ( 7.2 )] . Central Nervous System: Agitation, anxiety, behavioral changes, aseptic meningitis, confusion, convulsions, dizziness, insomnia, and reversible hyperactivity have been reported. Miscellaneous: Tooth discoloration (brown, yellow, or gray staining) has been reported. Most reports occurred in pediatric patients. Discoloration was reduced or eliminated with brushing or dental cleaning in most cases.",
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00cf4429-e37c-4490-b22d-3cd796124296"
+    },
+    {
+      "drug": "IBUPROFEN",
+      "source": "openFDA",
+      "rxcui": "5640",
+      "boxed_warning": null,
+      "contraindications": null,
+      "warnings_and_precautions": null,
+      "drug_interactions": null,
+      "use_in_specific_populations": null,
+      "adverse_reactions": null,
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00653b7c-7099-487e-9a01-e89781c21323"
+    },
+    {
+      "drug": null,
+      "source": "openFDA",
+      "rxcui": "604365",
+      "boxed_warning": null,
+      "contraindications": null,
+      "warnings_and_precautions": null,
+      "drug_interactions": null,
+      "use_in_specific_populations": null,
+      "adverse_reactions": null,
+      "label_url": null,
+      "error": "No openFDA drug/label found via RxCUI, name, or NDC",
+      "debug": {
+        "rxcui": "604365",
+        "name_used": null,
+        "ndc_tried": []
+      }
+    }
+  ],
+  "summary": {
+    "transcript": "Nurse: Thank you for calling the nurse advice line, this is Angela, RN. Can I get your first name and date of birth?\nPatient: Hi, I\u2019m Sam, 04/12/1994.\nNurse: Thanks, Sam. What\u2019s going on today?\nPatient: I started a new antibiotic a couple days ago and I\u2019ve been feeling really nauseated, kind of dizzy, and my stomach feels off.\nNurse: I\u2019m sorry you\u2019re feeling that way. What antibiotic is it, and what dose are you taking?\nPatient: Amoxicillin, 500 milligrams, three times a day.\nNurse: When did you take your first dose?\nPatient: Monday night, so about two days ago.\nNurse: And when did the nausea and dizziness start?\nPatient: Yesterday morning. It\u2019s been on and off since then.\nNurse: On a scale of 0 to 10, how bad is the nausea right now?\nPatient: Maybe a 6.\nNurse: Any vomiting?\nPatient: No vomiting, just feeling like I might.\nNurse: Are you able to keep fluids down\u2014water, electrolyte drinks?\nPatient: Yes, I can drink.\nNurse: Any diarrhea?\nPatient: A little, like twice today, not severe.\nNurse: I\u2019m going to ask a few safety questions. Any chest pain, trouble breathing, wheezing, swelling of your lips, tongue, or throat?\nPatient: No.\nNurse: Any hives, widespread rash, or itching?\nPatient: No rash.\nNurse: Any fainting, confusion, or severe weakness?\nPatient: No fainting\u2014just lightheaded when I stand up.\nNurse: Any fever higher than 100.4\u00b0F, or severe abdominal pain?\nPatient: No fever, and the stomach pain is mild, like cramping.\nNurse: Are you taking any other medications or supplements right now?\nPatient: Just ibuprofen sometimes for the tooth pain, and a multivitamin.\nNurse: Any history of allergy to penicillin or antibiotics?\nPatient: Not that I know of.\nNurse: Thanks. Based on what you\u2019re describing, this can happen with antibiotics, but we still want your prescriber to review it\u2014especially since the dizziness is affecting you. I recommend you call the prescribing clinic today to report the nausea, dizziness, and diarrhea and ask whether you should continue amoxicillin or switch to a different medication.\nPatient: Okay. Should I take the next dose?\nNurse: Since I can\u2019t evaluate you in person, the safest step is to contact your prescriber before your next dose if possible. In the meantime, focus on hydration\u2014small sips frequently\u2014and try bland foods if you can tolerate them. Avoid alcohol, and stand up slowly to reduce the lightheaded feeling.\nPatient: What should I watch for?\nNurse: If you develop trouble breathing, swelling of your face or throat, hives, a rapidly spreading rash, severe or worsening abdominal pain, repeated vomiting so you can\u2019t keep fluids down, signs of dehydration, or you faint\u2014seek emergency care immediately. If symptoms worsen tonight and you can\u2019t reach the clinic, go to urgent care.\nPatient: Got it. I\u2019ll call them now.\nNurse: Good plan. Do you feel safe to drive, or is the dizziness too strong?\nPatient: I think I\u2019m okay, but I\u2019ll have someone else drive if needed.\nNurse: Perfect. Is there anything else you want to go over before we end the call?\nPatient: No, that covers it. Thank you.\nNurse: You\u2019re welcome, Sam. I hope you feel better soon.",
+    "medications": [
+      {
+        "mention": "Amoxicillin",
+        "normalized_name_hint": "amoxicillin",
+        "start_days_ago": 2,
+        "change_days_ago": null,
+        "dose": "500 mg",
+        "frequency": "three times a day"
+      },
+      {
+        "mention": "ibuprofen",
+        "normalized_name_hint": "ibuprofen",
+        "start_days_ago": null,
+        "change_days_ago": null,
+        "dose": null,
+        "frequency": "sometimes"
+      },
+      {
+        "mention": "multivitamin",
+        "normalized_name_hint": "multivitamin",
+        "start_days_ago": null,
+        "change_days_ago": null,
+        "dose": null,
+        "frequency": null
+      }
+    ],
+    "symptoms": [
+      {
+        "text": "nausea",
+        "onset_days_ago": 1,
+        "severity": "6/10",
+        "negated": false,
+        "quote": "I\u2019ve been feeling really nauseated"
+      },
+      {
+        "text": "dizziness",
+        "onset_days_ago": 1,
+        "severity": null,
+        "negated": false,
+        "quote": "kind of dizzy"
+      },
+      {
+        "text": "stomach feels off",
+        "onset_days_ago": 1,
+        "severity": null,
+        "negated": false,
+        "quote": "my stomach feels off"
+      },
+      {
+        "text": "diarrhea",
+        "onset_days_ago": 0,
+        "severity": "mild",
+        "negated": false,
+        "quote": "A little, like twice today, not severe."
+      },
+      {
+        "text": "abdominal cramping (mild)",
+        "onset_days_ago": null,
+        "severity": "mild",
+        "negated": false,
+        "quote": "the stomach pain is mild, like cramping."
+      },
+      {
+        "text": "lightheadedness on standing",
+        "onset_days_ago": 1,
+        "severity": null,
+        "negated": false,
+        "quote": "just lightheaded when I stand up."
+      }
+    ],
+    "red_flags": [
+      {
+        "text": "lightheadedness when standing (possible near-syncope risk)",
+        "quote": "just lightheaded when I stand up."
+      }
+    ],
+    "possible_ae_flags": [
+      {
+        "type": "possible_ae_occurring",
+        "drug": "IBUPROFEN",
+        "event_meddra_pt": "ABDOMINAL DISCOMFORT",
+        "symptom": "stomach feels off",
+        "symptom_quote": "my stomach feels off",
+        "symptom_onset_days_ago": 1,
+        "drug_start_days_ago": null,
+        "timing_plausible": null,
+        "nDE": 3149,
+        "nD": 56338,
+        "nE": 55410,
+        "N": 6750933,
+        "ror": 7.525832993486696,
+        "ror_lcl95": 7.252753996224375,
+        "ror_ucl95": 7.80919389728888,
+        "serious_fraction": 0.909495077802477,
+        "score": 14,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "AMOXICILLIN",
+        "event_meddra_pt": "DIARRHOEA",
+        "symptom": "diarrhea",
+        "symptom_quote": "A little, like twice today, not severe.",
+        "symptom_onset_days_ago": 0,
+        "drug_start_days_ago": 2,
+        "timing_plausible": true,
+        "nDE": 1267,
+        "nD": 21230,
+        "nE": 204754,
+        "N": 6750933,
+        "ror": 2.0362684138863028,
+        "ror_lcl95": 1.9235526279952628,
+        "ror_ucl95": 2.155589087111398,
+        "serious_fraction": 0.797947908445146,
+        "score": 13,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "AMOXICILLIN",
+        "event_meddra_pt": "NAUSEA",
+        "symptom": "nausea",
+        "symptom_quote": "I\u2019ve been feeling really nauseated",
+        "symptom_onset_days_ago": 1,
+        "drug_start_days_ago": 2,
+        "timing_plausible": true,
+        "nDE": 1185,
+        "nD": 21230,
+        "nE": 219540,
+        "N": 6750933,
+        "ror": 1.7635649936624447,
+        "ror_lcl95": 1.6629579754555512,
+        "ror_ucl95": 1.8702586191449726,
+        "serious_fraction": 0.8320675105485232,
+        "score": 13,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "AMOXICILLIN",
+        "event_meddra_pt": "ABDOMINAL DISCOMFORT",
+        "symptom": "stomach feels off",
+        "symptom_quote": "my stomach feels off",
+        "symptom_onset_days_ago": 1,
+        "drug_start_days_ago": 2,
+        "timing_plausible": true,
+        "nDE": 298,
+        "nD": 21230,
+        "nE": 55410,
+        "N": 6750933,
+        "ror": 1.727021780714816,
+        "ror_lcl95": 1.5400896512259723,
+        "ror_ucl95": 1.9366432523516426,
+        "serious_fraction": 0.714765100671141,
+        "score": 13,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "AMOXICILLIN",
+        "event_meddra_pt": "DIZZINESS",
+        "symptom": "dizziness",
+        "symptom_quote": "kind of dizzy",
+        "symptom_onset_days_ago": 1,
+        "drug_start_days_ago": 2,
+        "timing_plausible": true,
+        "nDE": 634,
+        "nD": 21230,
+        "nE": 134941,
+        "N": 6750933,
+        "ror": 1.5127906946715652,
+        "ror_lcl95": 1.397620684545108,
+        "ror_ucl95": 1.637451213474091,
+        "serious_fraction": 0.8438485804416404,
+        "score": 13,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "AMOXICILLIN",
+        "event_meddra_pt": "DIZZINESS",
+        "symptom": "lightheadedness on standing",
+        "symptom_quote": "just lightheaded when I stand up.",
+        "symptom_onset_days_ago": 1,
+        "drug_start_days_ago": 2,
+        "timing_plausible": true,
+        "nDE": 634,
+        "nD": 21230,
+        "nE": 134941,
+        "N": 6750933,
+        "ror": 1.5127906946715652,
+        "ror_lcl95": 1.397620684545108,
+        "ror_ucl95": 1.637451213474091,
+        "serious_fraction": 0.8438485804416404,
+        "score": 13,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "IBUPROFEN",
+        "event_meddra_pt": "ABDOMINAL PAIN",
+        "symptom": "abdominal cramping (mild)",
+        "symptom_quote": "the stomach pain is mild, like cramping.",
+        "symptom_onset_days_ago": null,
+        "drug_start_days_ago": null,
+        "timing_plausible": null,
+        "nDE": 1581,
+        "nD": 56338,
+        "nE": 63985,
+        "N": 6750933,
+        "ror": 3.069493614375899,
+        "ror_lcl95": 2.918011834033008,
+        "ror_ucl95": 3.228839218130409,
+        "serious_fraction": 0.9101834282099937,
+        "score": 12,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "AMOXICILLIN",
+        "event_meddra_pt": "ABDOMINAL PAIN",
+        "symptom": "abdominal cramping (mild)",
+        "symptom_quote": "the stomach pain is mild, like cramping.",
+        "symptom_onset_days_ago": null,
+        "drug_start_days_ago": 2,
+        "timing_plausible": null,
+        "nDE": 567,
+        "nD": 21230,
+        "nE": 63985,
+        "N": 6750933,
+        "ror": 2.88688793204029,
+        "ror_lcl95": 2.654921556010922,
+        "ror_ucl95": 3.1391217240640676,
+        "serious_fraction": 0.9382716049382716,
+        "score": 12,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "IBUPROFEN",
+        "event_meddra_pt": "NAUSEA",
+        "symptom": "nausea",
+        "symptom_quote": "I\u2019ve been feeling really nauseated",
+        "symptom_onset_days_ago": 1,
+        "drug_start_days_ago": null,
+        "timing_plausible": null,
+        "nDE": 4385,
+        "nD": 56338,
+        "nE": 219540,
+        "N": 6750933,
+        "ror": 2.5420808480717514,
+        "ror_lcl95": 2.46419296422847,
+        "ror_ucl95": 2.622430601800082,
+        "serious_fraction": 0.7792474344355759,
+        "score": 12,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "IBUPROFEN",
+        "event_meddra_pt": "DIZZINESS",
+        "symptom": "dizziness",
+        "symptom_quote": "kind of dizzy",
+        "symptom_onset_days_ago": 1,
+        "drug_start_days_ago": null,
+        "timing_plausible": null,
+        "nDE": 2599,
+        "nD": 56338,
+        "nE": 134941,
+        "N": 6750933,
+        "ror": 2.398556036671793,
+        "ror_lcl95": 2.3051166010579727,
+        "ror_ucl95": 2.4957831019976293,
+        "serious_fraction": 0.7960754136206233,
+        "score": 12,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "IBUPROFEN",
+        "event_meddra_pt": "DIZZINESS",
+        "symptom": "lightheadedness on standing",
+        "symptom_quote": "just lightheaded when I stand up.",
+        "symptom_onset_days_ago": 1,
+        "drug_start_days_ago": null,
+        "timing_plausible": null,
+        "nDE": 2599,
+        "nD": 56338,
+        "nE": 134941,
+        "N": 6750933,
+        "ror": 2.398556036671793,
+        "ror_lcl95": 2.3051166010579727,
+        "ror_ucl95": 2.4957831019976293,
+        "serious_fraction": 0.7960754136206233,
+        "score": 12,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "IBUPROFEN",
+        "event_meddra_pt": "DIARRHOEA",
+        "symptom": "diarrhea",
+        "symptom_quote": "A little, like twice today, not severe.",
+        "symptom_onset_days_ago": 0,
+        "drug_start_days_ago": null,
+        "timing_plausible": null,
+        "nDE": 3731,
+        "nD": 56338,
+        "nE": 204754,
+        "N": 6750933,
+        "ror": 2.291250884738821,
+        "ror_lcl95": 2.215766043580157,
+        "ror_ucl95": 2.3693072795419945,
+        "serious_fraction": 0.8027338515143393,
+        "score": 12,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "MULTIVITAMIN",
+        "event_meddra_pt": "DIARRHOEA",
+        "symptom": "diarrhea",
+        "symptom_quote": "A little, like twice today, not severe.",
+        "symptom_onset_days_ago": 0,
+        "drug_start_days_ago": null,
+        "timing_plausible": null,
+        "nDE": 186,
+        "nD": 2884,
+        "nE": 204754,
+        "N": 6750933,
+        "ror": 2.2106833072979057,
+        "ror_lcl95": 1.9056788880883395,
+        "ror_ucl95": 2.564503765935124,
+        "serious_fraction": 0.3064516129032258,
+        "score": 10,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "MULTIVITAMIN",
+        "event_meddra_pt": "DIZZINESS",
+        "symptom": "dizziness",
+        "symptom_quote": "kind of dizzy",
+        "symptom_onset_days_ago": 1,
+        "drug_start_days_ago": null,
+        "timing_plausible": null,
+        "nDE": 117,
+        "nD": 2884,
+        "nE": 134941,
+        "N": 6750933,
+        "ror": 2.0825467064827556,
+        "ror_lcl95": 1.7313442269334922,
+        "ror_ucl95": 2.5049904676459085,
+        "serious_fraction": 0.47863247863247865,
+        "score": 10,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "MULTIVITAMIN",
+        "event_meddra_pt": "DIZZINESS",
+        "symptom": "lightheadedness on standing",
+        "symptom_quote": "just lightheaded when I stand up.",
+        "symptom_onset_days_ago": 1,
+        "drug_start_days_ago": null,
+        "timing_plausible": null,
+        "nDE": 117,
+        "nD": 2884,
+        "nE": 134941,
+        "N": 6750933,
+        "ror": 2.0825467064827556,
+        "ror_lcl95": 1.7313442269334922,
+        "ror_ucl95": 2.5049904676459085,
+        "serious_fraction": 0.47863247863247865,
+        "score": 10,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "MULTIVITAMIN",
+        "event_meddra_pt": "NAUSEA",
+        "symptom": "nausea",
+        "symptom_quote": "I\u2019ve been feeling really nauseated",
+        "symptom_onset_days_ago": 1,
+        "drug_start_days_ago": null,
+        "timing_plausible": null,
+        "nDE": 166,
+        "nD": 2884,
+        "nE": 219540,
+        "N": 6750933,
+        "ror": 1.822736287018175,
+        "ror_lcl95": 1.5586212161289608,
+        "ror_ucl95": 2.131606792998966,
+        "serious_fraction": 0.40963855421686746,
+        "score": 10,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "MULTIVITAMIN",
+        "event_meddra_pt": "ABDOMINAL DISCOMFORT",
+        "symptom": "stomach feels off",
+        "symptom_quote": "my stomach feels off",
+        "symptom_onset_days_ago": 1,
+        "drug_start_days_ago": null,
+        "timing_plausible": null,
+        "nDE": 28,
+        "nD": 2884,
+        "nE": 55410,
+        "N": 6750933,
+        "ror": 1.2056946246300444,
+        "ror_lcl95": 0.8335950596098934,
+        "ror_ucl95": 1.7438917266881204,
+        "serious_fraction": 0.42857142857142855,
+        "score": 8,
+        "urgency": "urgent"
+      },
+      {
+        "type": "possible_ae_occurring",
+        "drug": "MULTIVITAMIN",
+        "event_meddra_pt": "ABDOMINAL PAIN",
+        "symptom": "abdominal cramping (mild)",
+        "symptom_quote": "the stomach pain is mild, like cramping.",
+        "symptom_onset_days_ago": null,
+        "drug_start_days_ago": null,
+        "timing_plausible": null,
+        "nDE": 31,
+        "nD": 2884,
+        "nE": 63985,
+        "N": 6750933,
+        "ror": 1.1537300789025362,
+        "ror_lcl95": 0.8120204900890624,
+        "ror_ucl95": 1.6392358459063736,
+        "serious_fraction": 0.7096774193548387,
+        "score": 8,
+        "urgency": "urgent"
+      }
+    ],
+    "triage": "urgent",
+    "case_summary": "Sam started amoxicillin 500 milligrams three times a day on Monday night (about two days ago). Since yesterday morning, they have had intermittent nausea (rated 6/10) and dizziness, with their stomach feeling off. Today they also report mild diarrhea twice and mild cramping. They deny vomiting, fever, rash/hives, swelling of lips/tongue/throat, trouble breathing, chest pain, fainting, confusion, or severe weakness, but note lightheadedness when standing.",
+    "missing_info_questions": [
+      "What dose of ibuprofen are you taking (mg) and how often per day when you use it?",
+      "Have you had any vomiting at all since symptoms started, and if yes, when did it begin (how many days ago)?",
+      "When did the abdominal cramping start (how many days ago)?",
+      "Do you have any other medical conditions (e.g., kidney disease, pregnancy) or medication allergies?"
+    ],
+    "medication_safety": [
+      {
+        "drug": "AMOXICILLIN AND CLAVULANATE POTASSIUM",
+        "rxcui": "723",
+        "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00cf4429-e37c-4490-b22d-3cd796124296",
+        "boxed_warning_highlight": null,
+        "contraindications_highlight": "4 CONTRAINDICATIONS History of a serious hypersensitivity reaction (e.g., anaphylaxis or Stevens-Johnson syndrome) to Amoxicillin and Clavulanate Potassium or to other beta\u2011lactams (e.g., penicillins or cephalosporins).",
+        "adverse_reactions_mentions_angioedema": true,
+        "matched_symptoms_direct": [
+          "nausea",
+          "dizziness",
+          "diarrhea"
+        ],
+        "matched_symptoms_via_keywords": [],
+        "matched_meddra_pts": [
+          "abdominal discomfort",
+          "nausea",
+          "abdominal discomfort",
+          "dizziness",
+          "dizziness",
+          "nausea",
+          "dizziness",
+          "dizziness",
+          "dizziness",
+          "dizziness",
+          "nausea",
+          "abdominal discomfort"
+        ],
+        "label_fetch_error": null
+      },
+      {
+        "drug": "IBUPROFEN",
+        "rxcui": "5640",
+        "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00653b7c-7099-487e-9a01-e89781c21323",
+        "boxed_warning_highlight": null,
+        "contraindications_highlight": null,
+        "adverse_reactions_mentions_angioedema": false,
+        "matched_symptoms_direct": [],
+        "matched_symptoms_via_keywords": [],
+        "matched_meddra_pts": [],
+        "label_fetch_error": null
+      },
+      {
+        "drug": null,
+        "rxcui": "604365",
+        "label_url": null,
+        "boxed_warning_highlight": null,
+        "contraindications_highlight": null,
+        "adverse_reactions_mentions_angioedema": false,
+        "matched_symptoms_direct": [],
+        "matched_symptoms_via_keywords": [],
+        "matched_meddra_pts": [],
+        "label_fetch_error": "No openFDA drug/label found via RxCUI, name, or NDC"
+      }
+    ]
+  },
+  "triage_text": "Case summary:\nSam started amoxicillin 500 milligrams three times a day on Monday night (about two days ago). Since yesterday morning, they have had intermittent nausea (rated 6/10) and dizziness, with their stomach feeling off. Today they also report mild diarrhea twice and mild cramping. They deny vomiting, fever, rash/hives, swelling of lips/tongue/throat, trouble breathing, chest pain, fainting, confusion, or severe weakness, but note lightheadedness when standing.\n\nTriage: urgent\n\nPossible adverse event signals (from flags):\n- IBUPROFEN: ABDOMINAL DISCOMFORT (symptom: stomach feels off, urgency: urgent) | \"my stomach feels off\"\n- AMOXICILLIN: DIARRHOEA (symptom: diarrhea, urgency: urgent) | \"A little, like twice today, not severe.\"\n- AMOXICILLIN: NAUSEA (symptom: nausea, urgency: urgent) | \"I\u2019ve been feeling really nauseated\"\n- AMOXICILLIN: ABDOMINAL DISCOMFORT (symptom: stomach feels off, urgency: urgent) | \"my stomach feels off\"\n- AMOXICILLIN: DIZZINESS (symptom: dizziness, urgency: urgent) | \"kind of dizzy\"\n\nMedication label context (openFDA/DailyMed):\n- AMOXICILLIN AND CLAVULANATE POTASSIUM (RxCUI: 723)\n  Contraindications: 4 CONTRAINDICATIONS History of a serious hypersensitivity reaction (e.g., anaphylaxis or Stevens-Johnson syndrome) to Amoxicillin and Clavulanate Potassium or to other beta\u2011lactams (e.g., penicillins or cephalosporins).\n  Label mentions angioedema in adverse reactions.\n  MedDRA PT matches in label text:\n  - abdominal discomfort\n  - nausea\n  - abdominal discomfort\n  - dizziness\n  - dizziness\n  - nausea\n  - dizziness\n  - dizziness\n  - dizziness\n  - dizziness\n  Label: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00cf4429-e37c-4490-b22d-3cd796124296\n- IBUPROFEN (RxCUI: 5640)\n  Label: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00653b7c-7099-487e-9a01-e89781c21323\n- (unknown) (RxCUI: 604365)\n\nFollow-up questions:\n- What dose of ibuprofen are you taking (mg) and how often per day when you use it?\n- Have you had any vomiting at all since symptoms started, and if yes, when did it begin (how many days ago)?\n- When did the abdominal cramping start (how many days ago)?\n- Do you have any other medical conditions (e.g., kidney disease, pregnancy) or medication allergies?",
+  "final_answer": {
+    "patient": {
+      "name": "Sam",
+      "date_of_birth": "1994-04-12"
+    },
+    "case_summary": "Sam started amoxicillin 500 mg three times daily on Monday night (~2 days ago). Since yesterday morning, they have had intermittent nausea (6/10) and dizziness/lightheadedness on standing, with stomach discomfort. Today they report mild diarrhea twice and mild abdominal cramping. They deny vomiting, fever >100.4F, severe abdominal pain, rash/hives/itching, swelling of lips/tongue/throat, trouble breathing/wheezing, chest pain, fainting, confusion, or severe weakness.",
+    "triage": {
+      "level": "urgent",
+      "rationale": [
+        "New onset nausea, dizziness/lightheadedness, and diarrhea after starting amoxicillin; dizziness is affecting function (lightheaded on standing).",
+        "Needs prescriber review before next dose per nurse guidance; ER precautions provided for allergic reaction or dehydration/red-flag symptoms."
+      ]
+    },
+    "medications": [
+      {
+        "mention": "Amoxicillin",
+        "normalized_name_hint": "amoxicillin",
+        "dose": "500 mg",
+        "frequency": "three times a day",
+        "start_days_ago": 2
+      },
+      {
+        "mention": "ibuprofen",
+        "normalized_name_hint": "ibuprofen",
+        "dose": null,
+        "frequency": "sometimes",
+        "start_days_ago": null
+      },
+      {
+        "mention": "multivitamin",
+        "normalized_name_hint": "multivitamin",
+        "dose": null,
+        "frequency": null,
+        "start_days_ago": null
+      }
+    ],
+    "events": [
+      {
+        "suspect_drug": "Amoxicillin",
+        "reported_symptoms": [
+          "nausea",
+          "dizziness",
+          "lightheadedness on standing",
+          "diarrhea",
+          "stomach feels off",
+          "abdominal cramping (mild)"
+        ],
+        "onset_relative_to_drug_start": "Symptoms began ~1 day after first dose (started Monday night; nausea/dizziness began Tuesday morning). Diarrhea/cramping reported today.",
+        "negated_symptoms": [
+          "vomiting",
+          "rash",
+          "hives",
+          "itching",
+          "swelling of lips, tongue, or throat",
+          "trouble breathing",
+          "wheezing",
+          "chest pain",
+          "fainting",
+          "confusion",
+          "severe weakness",
+          "fever >100.4F",
+          "severe abdominal pain"
+        ],
+        "severity_notes": {
+          "nausea_score_0_to_10": 6,
+          "diarrhea_frequency": "twice today, not severe",
+          "dizziness_description": "lightheaded when standing up"
+        }
+      }
+    ],
+    "red_flags": [
+      {
+        "text": "Lightheadedness when standing (possible near-syncope risk)",
+        "quote": "just lightheaded when I stand up."
+      }
+    ],
+    "care_advice_in_call": [
+      "Contact prescriber/clinic today to report nausea, dizziness, and diarrhea and ask whether to continue amoxicillin or switch.",
+      "If possible, contact prescriber before next dose.",
+      "Hydration with small frequent sips; bland foods as tolerated; avoid alcohol; stand up slowly.",
+      "Seek emergency care for trouble breathing, swelling of face/throat, hives/rapidly spreading rash, severe/worsening abdominal pain, repeated vomiting with inability to keep fluids down, signs of dehydration, or fainting; urgent care if worsening and cannot reach clinic."
+    ],
+    "missing_information_questions": [
+      "What dose of ibuprofen are you taking (mg) and how often per day when you use it?",
+      "Have you had any vomiting at all since symptoms started, and if yes, when did it begin (how many days ago)?",
+      "When did the abdominal cramping start (how many days ago)?",
+      "Do you have any other medical conditions (e.g., kidney disease, pregnancy) or medication allergies?"
+    ],
+    "label_alignment": [
+      {
+        "label_drug": "AMOXICILLIN AND CLAVULANATE POTASSIUM",
+        "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00cf4429-e37c-4490-b22d-3cd796124296",
+        "label_may_not_match_exact_product": false,
+        "happened_or_suspected": [],
+        "can_happen_but_not_happened": [
+          "angioedema",
+          "hives",
+          "rash",
+          "urticaria"
+        ],
+        "no_possibility_of_happening": [
+          "hives",
+          "rash"
+        ],
+        "notes": "Transcript reports no rash/hives/itching and no swelling of lips/tongue/throat or breathing trouble."
+      },
+      {
+        "label_drug": "IBUPROFEN",
+        "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00653b7c-7099-487e-9a01-e89781c21323",
+        "label_may_not_match_exact_product": false,
+        "happened_or_suspected": [],
+        "can_happen_but_not_happened": [
+          "hives",
+          "rash",
+          "urticaria"
+        ],
+        "no_possibility_of_happening": [
+          "hives",
+          "rash"
+        ],
+        "notes": "Transcript reports no rash/hives/itching."
+      }
+    ],
+    "top_signals": [
+      {
+        "drug": "IBUPROFEN",
+        "event_meddra_pt": "ABDOMINAL DISCOMFORT",
+        "symptom": "stomach feels off",
+        "urgency": "urgent",
+        "score": 14,
+        "evidence_quote": "my stomach feels off"
+      },
+      {
+        "drug": "AMOXICILLIN",
+        "event_meddra_pt": "DIARRHOEA",
+        "symptom": "diarrhea",
+        "urgency": "urgent",
+        "score": 13,
+        "evidence_quote": "A little, like twice today, not severe."
+      },
+      {
+        "drug": "AMOXICILLIN",
+        "event_meddra_pt": "NAUSEA",
+        "symptom": "nausea",
+        "urgency": "urgent",
+        "score": 13,
+        "evidence_quote": "I\u2019ve been feeling really nauseated"
+      },
+      {
+        "drug": "AMOXICILLIN",
+        "event_meddra_pt": "ABDOMINAL DISCOMFORT",
+        "symptom": "stomach feels off",
+        "urgency": "urgent",
+        "score": 13,
+        "evidence_quote": "my stomach feels off"
+      },
+      {
+        "drug": "AMOXICILLIN",
+        "event_meddra_pt": "DIZZINESS",
+        "symptom": "dizziness",
+        "urgency": "urgent",
+        "score": 13,
+        "evidence_quote": "kind of dizzy"
+      }
+    ]
+  }
+}

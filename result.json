@@ -1,0 +1,448 @@
+{
+  "raw_transcript": "NURSE: Thanks for calling. What medication changes recently?\nPATIENT: I started lisinopril 10 mg once daily 3 days ago.\nPATIENT: Since yesterday my lips feel swollen and my throat feels tight.\nNURSE: Any rash or hives?\nPATIENT: No rash. I feel a bit short of breath.",
+  "attributed_transcript": {
+    "turns": [
+      {
+        "speaker": "nurse",
+        "text": "Thanks for calling. What medication changes recently?"
+      },
+      {
+        "speaker": "patient",
+        "text": "I started lisinopril 10 mg once daily 3 days ago."
+      },
+      {
+        "speaker": "patient",
+        "text": "Since yesterday my lips feel swollen and my throat feels tight."
+      },
+      {
+        "speaker": "nurse",
+        "text": "Any rash or hives?"
+      },
+      {
+        "speaker": "patient",
+        "text": "No rash. I feel a bit short of breath."
+      }
+    ]
+  },
+  "extracted_facts": {
+    "medications": [
+      {
+        "mention": "lisinopril",
+        "normalized_name_hint": "lisinopril",
+        "start_days_ago": 3,
+        "change_days_ago": 3,
+        "dose": "10 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "symptoms": [
+      {
+        "text": "lips feel swollen",
+        "onset_days_ago": 1,
+        "severity": null,
+        "negated": false,
+        "quote": "Since yesterday my lips feel swollen"
+      },
+      {
+        "text": "throat feels tight",
+        "onset_days_ago": 1,
+        "severity": null,
+        "negated": false,
+        "quote": "my throat feels tight"
+      },
+      {
+        "text": "short of breath",
+        "onset_days_ago": null,
+        "severity": "mild",
+        "negated": false,
+        "quote": "I feel a bit short of breath."
+      },
+      {
+        "text": "rash",
+        "onset_days_ago": null,
+        "severity": null,
+        "negated": true,
+        "quote": "No rash."
+      },
+      {
+        "text": "hives",
+        "onset_days_ago": null,
+        "severity": null,
+        "negated": true,
+        "quote": "Any rash or hives? PATIENT: No rash."
+      }
+    ],
+    "conditions": [],
+    "risk_factors": [],
+    "red_flags": [
+      {
+        "text": "throat tightness",
+        "quote": "my throat feels tight"
+      },
+      {
+        "text": "lip swelling",
+        "quote": "Since yesterday my lips feel swollen"
+      },
+      {
+        "text": "shortness of breath",
+        "quote": "I feel a bit short of breath."
+      }
+    ],
+    "missing_info": [
+      {
+        "field": "symptoms[2].onset_days_ago",
+        "question": "When did the shortness of breath start (how many days ago)?"
+      },
+      {
+        "field": "symptoms[].severity",
+        "question": "How severe are the lip swelling and throat tightness (mild/moderate/severe), and are they worsening?"
+      },
+      {
+        "field": "symptoms[].progression",
+        "question": "Are the symptoms getting worse, staying the same, or improving since they started?"
+      }
+    ]
+  },
+  "drug_normalization": [
+    {
+      "input": "lisinopril",
+      "rxcui": "29046",
+      "canonical": "LISINOPRIL",
+      "synonyms": [
+        "LISINOPRIL"
+      ],
+      "start_days_ago": 3,
+      "change_days_ago": 3
+    }
+  ],
+  "flags": [
+    {
+      "type": "possible_ae_occurring",
+      "drug": "LISINOPRIL",
+      "event_meddra_pt": "LIP SWELLING",
+      "symptom": "lips feel swollen",
+      "symptom_quote": "Since yesterday my lips feel swollen",
+      "symptom_onset_days_ago": 1,
+      "drug_start_days_ago": 3,
+      "timing_plausible": true,
+      "nDE": 246,
+      "nD": 55852,
+      "nE": 8835,
+      "N": 6750933,
+      "ror": 3.4508163014341218,
+      "ror_lcl95": 3.03957947058331,
+      "ror_ucl95": 3.9176910034723464,
+      "serious_fraction": 0.7398373983739838,
+      "score": 15,
+      "urgency": "emergent",
+      "p_ae_now": 0.8696729654781088,
+      "p_serious_24_72h": 0.6409925736384605
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "LISINOPRIL",
+      "event_meddra_pt": "THROAT TIGHTNESS",
+      "symptom": "throat feels tight",
+      "symptom_quote": "my throat feels tight",
+      "symptom_onset_days_ago": 1,
+      "drug_start_days_ago": 3,
+      "timing_plausible": true,
+      "nDE": 84,
+      "nD": 55852,
+      "nE": 7239,
+      "N": 6750933,
+      "ror": 1.4161825898954912,
+      "ror_lcl95": 1.142624608396509,
+      "ror_ucl95": 1.7552336201979775,
+      "serious_fraction": 0.7857142857142857,
+      "score": 11,
+      "urgency": "emergent",
+      "p_ae_now": 0.5941180697308911,
+      "p_serious_24_72h": 0.4679013482100818
+    },
+    {
+      "type": "possible_ae_occurring",
+      "drug": "LISINOPRIL",
+      "event_meddra_pt": "DYSPNOEA",
+      "symptom": "short of breath",
+      "symptom_quote": "I feel a bit short of breath.",
+      "symptom_onset_days_ago": null,
+      "drug_start_days_ago": 3,
+      "timing_plausible": null,
+      "nDE": 2495,
+      "nD": 55852,
+      "nE": 159595,
+      "N": 6750933,
+      "ror": 1.9463826347457331,
+      "ror_lcl95": 1.8692168445402242,
+      "ror_ucl95": 2.02673401532051,
+      "serious_fraction": 0.7334669338677354,
+      "score": 8,
+      "urgency": "emergent",
+      "p_ae_now": 0.506754478584135,
+      "p_serious_24_72h": 0.5416368209952246
+    },
+    {
+      "type": "elevated_risk",
+      "drug": "LISINOPRIL",
+      "event_meddra_pt": "JOINT SWELLING",
+      "nDE": 1639,
+      "nD": 55852,
+      "nE": 42916,
+      "N": 6750933,
+      "ror": 4.874842910191799,
+      "ror_lcl95": 4.636739146824252,
+      "ror_ucl95": 5.1251736719594225,
+      "serious_fraction": 0.896888346552776,
+      "score": 6,
+      "urgency": "monitor"
+    },
+    {
+      "type": "elevated_risk",
+      "drug": "LISINOPRIL",
+      "event_meddra_pt": "HYPERTENSION",
+      "nDE": 2087,
+      "nD": 55852,
+      "nE": 61654,
+      "N": 6750933,
+      "ror": 4.325019045584296,
+      "ror_lcl95": 4.136935202417149,
+      "ror_ucl95": 4.521654033579587,
+      "serious_fraction": 0.8298993770963105,
+      "score": 6,
+      "urgency": "monitor"
+    }
+  ],
+  "creative": {
+    "case_narrative": {
+      "summary": "The patient started lisinopril 10 mg once daily 3 days ago. Since yesterday, they report lip swelling and throat tightness. They also report feeling a bit short of breath. They deny rash.",
+      "timeline": [
+        "- 3 days ago: Started lisinopril 10 mg once daily.",
+        "- Since yesterday: Lips feel swollen and throat feels tight.",
+        "- Current: Reports mild shortness of breath; denies rash."
+      ],
+      "symptom_evidence": [
+        {
+          "symptom_text": "lips feel swollen",
+          "meddra_pt": "LIP SWELLING",
+          "onset_days_ago": 1,
+          "quote": "Since yesterday my lips feel swollen"
+        },
+        {
+          "symptom_text": "throat feels tight",
+          "meddra_pt": "THROAT TIGHTNESS",
+          "onset_days_ago": 1,
+          "quote": "my throat feels tight"
+        },
+        {
+          "symptom_text": "short of breath",
+          "meddra_pt": "DYSPNOEA",
+          "onset_days_ago": null,
+          "quote": "I feel a bit short of breath."
+        }
+      ]
+    },
+    "why_flagged": {
+      "items": [
+        {
+          "flag_index": 0,
+          "headline": "Emergent: lip swelling after starting lisinopril",
+          "rationale": "Lip swelling began after starting lisinopril, and this is flagged as emergent in the provided data.",
+          "evidence_quotes": [
+            "I started lisinopril 10 mg once daily 3 days ago.",
+            "Since yesterday my lips feel swollen"
+          ],
+          "uncertainties": [
+            "Severity and progression of the lip swelling are not provided."
+          ]
+        },
+        {
+          "flag_index": 1,
+          "headline": "Emergent: throat tightness after starting lisinopril",
+          "rationale": "Throat tightness began after starting lisinopril, and this is flagged as emergent in the provided data.",
+          "evidence_quotes": [
+            "I started lisinopril 10 mg once daily 3 days ago.",
+            "my throat feels tight"
+          ],
+          "uncertainties": [
+            "Severity and progression of the throat tightness are not provided."
+          ]
+        },
+        {
+          "flag_index": 2,
+          "headline": "Emergent: shortness of breath reported after starting lisinopril",
+          "rationale": "The patient reports mild shortness of breath after starting lisinopril; onset timing is not specified, and this is flagged as emergent in the provided data.",
+          "evidence_quotes": [
+            "I started lisinopril 10 mg once daily 3 days ago.",
+            "I feel a bit short of breath."
+          ],
+          "uncertainties": [
+            "When the shortness of breath started (how many days ago) is not provided."
+          ]
+        }
+      ]
+    },
+    "follow_up_questions": {
+      "questions": [
+        "When did the shortness of breath start (how many days ago)?",
+        "How severe are the lip swelling and throat tightness (mild/moderate/severe), and are they worsening?",
+        "Are the symptoms getting worse, staying the same, or improving since they started?"
+      ]
+    },
+    "patient_script": {
+      "triage": "emergent",
+      "script": "You reported that you started lisinopril 10 mg once daily 3 days ago, and since yesterday your lips feel swollen and your throat feels tight, and you also feel a bit short of breath. Because of these symptoms, this needs emergent evaluation now. Please seek emergency care immediately.",
+      "emergency_instructions_block": null
+    },
+    "coding_assistant": {
+      "meddra_suggestions": [
+        {
+          "symptom_text": "lips feel swollen",
+          "current_meddra_pt": "LIP SWELLING",
+          "suggested_meddra_pt": "LIP SWELLING",
+          "note": "No change suggested based on provided mapping."
+        },
+        {
+          "symptom_text": "throat feels tight",
+          "current_meddra_pt": "THROAT TIGHTNESS",
+          "suggested_meddra_pt": "THROAT TIGHTNESS",
+          "note": "No change suggested based on provided mapping."
+        },
+        {
+          "symptom_text": "short of breath",
+          "current_meddra_pt": "DYSPNOEA",
+          "suggested_meddra_pt": "DYSPNOEA",
+          "note": "No change suggested based on provided mapping."
+        }
+      ],
+      "contradictions_or_negation_issues": [
+        {
+          "issue": "Hives are asked about, but the patient response only explicitly denies rash; hives negation may be incomplete/unclear in the transcript.",
+          "evidence_quotes": [
+            "NURSE: Any rash or hives?\nPATIENT: No rash."
+          ],
+          "needs_human_review": true
+        }
+      ],
+      "needs_human_review_tags": [
+        "missing_onset_shortness_of_breath",
+        "missing_severity_lip_swelling_throat_tightness",
+        "missing_symptom_progression",
+        "negation_unclear_hives"
+      ]
+    }
+  },
+  "creative_error": null,
+  "drug_labels": [
+    {
+      "drug": "LISINOPRIL AND HYDROCHLOROTHIAZIDE TABLETS",
+      "source": "openFDA",
+      "rxcui": "29046",
+      "boxed_warning": "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue lisinopril and hydrochlorothiazide tablets as soon as possible. Drugs that act directly on the renin-angiotensin system can cause injury and death to the developing fetus. See Warnings, Fetal Toxicity .",
+      "contraindications": "CONTRAINDICATIONS Lisinopril and hydrochlorothiazide tablets are contraindicated in patients who are hypersensitive to any component of this product and in patients with a history of angioedema related to previous treatment with an angiotensin converting enzyme inhibitor and in patients with hereditary or idiopathic angioedema. Because of the hydrochlorothiazide component, this product is contraindicated in patients with anuria or hypersensitivity to other sulfonamide-derived drugs. Lisinopril and hydrochlorothiazide tablets are contraindicated in combination with a neprilysin inhibitor (e.g., sacubitril). Do not administer lisinopril and hydrochlorothiazide tablets within 36 hours of switching to or from sacubitril/valsartan, a neprilysin inhibitor (see WARNINGS ). Do not coadminister aliskiren with lisinopril and hydrochlorothiazide tablets in patients with diabetes.",
+      "warnings_and_precautions": null,
+      "drug_interactions": "Drug Interactions Lisinopril Hypotension - Patients on Diuretic Therapy: Patients on diuretics and especially those in whom diuretic therapy was recently instituted, may occasionally experience an excessive reduction of blood pressure after initiation of therapy with lisinopril. The possibility of hypotensive effects with lisinopril can be minimized by either discontinuing the diuretic or increasing the salt intake prior to initiation of treatment with lisinopril. If it is necessary to continue the diuretic, initiate therapy with lisinopril at a dose of 5 mg daily, and provide close medical supervision after the initial dose for at least two hours and until blood pressure has stabilized for at least an additional hour. (See WARNINGS , and DOSAGE AND ADMINISTRATION .) When a diuretic is added to the therapy of a patient receiving lisinopril, an additional antihypertensive effect is usually observed (See DOSAGE AND ADMINISTRATION .) Non-steroidal Anti-inflammatory Agents Including Selective Cyclooxygenase-2 (COX-2) Inhibitors: In patients who are elderly, volume-depleted (including those on diuretic therapy), or with compromised renal function, co-administration of NSAIDs, including selective COX-2 inhibitors, with ACE inhibitors, including lisinopril, may result in deterioration of renal function, including possible acute renal failure. These effects are usually reversible. Monitor renal function periodically in patients receiving lisinopril and NSAID therapy. The antihypertensive effect of ACE inhibitors, including lisinopril, may be attenuated by NSAIDs. Dual Blockade of the Renin-Angiotensin System (RAS): Dual blockade of the RAS with angiotensin receptor blockers, ACE inhibitors, or direct renin inhibitors (such as aliskiren) is associated with increased risk of hypotension, syncope, hyperkalemia, and changes in renal function (including acute renal failure) compared to monotherapy. The VA NEPHRON trial enrolled 1448 patients with type 2 diabetes, elevated urinary-albumin-to-creatinine ratio, and decreased estimated glomerular filtration rate (GFR 30 to 89.9 ml/min), randomized them to lisinopril or placebo on a background of losartan therapy and followed them for a median of 2.2 years. Patients receiving the combination of losartan and lisinopril did not obtain any additional benefit compared to monotherapy for the combined endpoint of decline in GFR, end state renal disease, or death, but experienced an increased incidence of hyperkalemia and acute kidney injury compared with the monotherapy group. In general, avoid combined use of RAS inhibitors. Monitor blood pressure, renal function, and electrolytes in patients on lisinopril and hydrochlorothiazide tablets and other agents that affect the RAS. Do not coadminister aliskiren with lisinopril and hydrochlorothiazide tablets in patients with diabetes. Avoid use of aliskiren with PRINZIDE in patients with renal impairment (GFR <60 ml/min). Other Agents: Lisinopril has been used concomitantly with nitrates and/or digoxin without evidence of clinically significant adverse interactions. No meaningful clinically important pharmacokinetic interactions occurred when lisinopril was used concomitantly with propranolol, digoxin, or hydrochlorothiazide. The presence of food in the stomach does not alter the bioavailability of lisinopril. Agents Increasing Serum Potassium: Lisinopril attenuates potassium loss caused by thiazide-type diuretics. Use of lisinopril with potassium-sparing diuretics (e.g., spironolactone, eplerenone, triamterene, or amiloride), potassium supplements, or potassium-containing salt substitutes may lead to significant increases in serum potassium. Therefore, if concomitant use of these agents is indicated, because of demonstrated hypokalemia, they should be used with caution and with frequent monitoring of serum potassium. Lithium: Lithium toxicity has been reported in patients receiving lithium concomitantly with drugs which cause elimination of sodium, including ACE inhibitors. Lithium toxicity was usually reversible upon discontinuation of lithium and the ACE inhibitor. It is recommended that serum lithium levels be monitored frequently if lisinopril is administered concomitantly with lithium. Gold: Nitritoid reactions (symptoms include facial flushing, nausea, vomiting and hypotension) have been reported rarely in patients on therapy with injectable gold (sodium aurothiomalate) and concomitant ACE inhibitor therapy including lisinopril and hydrochlorothiazide tablets. mTOR (mammalian target of rapamycin) inhibitors: Patients receiving coadministration of ACE inhibitor and mTOR inhibitor (e.g., temsirolimus, sirolimus, everolimus) therapy may be at increased risk for angioedema. (see WARNINGS ) Neprilysin Inhibitors: Patients taking concomitant neprilysin inhibitors may be at increased risk for angioedema. (see WARNINGS ) Hydrochlorothiazide When administered concurrently the following drugs may interact with thiazide diuretics. Alcohol, barbiturates, or narcotics - potentiation of orthostatic hypotension may occur. Antidiabetic drugs (oral agents and insulin) - dosage adjustment of the antidiabetic drug may be required. Other antihypertensive drugs - additive effect or potentiation. Cholestyramine and colestipol resins - Absorption of hydrochlorothiazide is impaired in the presence of anionic exchange resins. Single doses of either cholestyramine or colestipol resins bind the hydrochlorothiazide and reduce its absorption from the gastrointestinal tract by up to 85% and 43%, respectively. Corticosteroids, ACTH - intensified electrolyte depletion, particularly hypokalemia. Pressor amines (e.g., norepinephrine) - possible decreased response to pressor amines but not sufficient to preclude their use. Skeletal muscle relaxants, nondepolarizing (e.g., tubocurarine) - possible increased responsiveness to the muscle relaxant. Lithium - should not generally be given with diuretics. Diuretic agents reduce the renal clearance of lithium and add a high risk of lithium toxicity. Refer to the package insert for lithium preparations before use of such preparations with lisinopril and hydrochlorothiazide tablets. Non-steroidal Anti-inflammatoryDrugs - In some patients, the administration of a non-steroidal anti-inflammatory agent can reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium-sparing and thiazide diuretics. Therefore, when lisinopril and hydrochlorothiazide tablets and non-steroidal anti-inflammatory agents are used concomitantly, the patient should be observed closely to determine if the desired effect of lisinopril and hydrochlorothiazide tablets is obtained.",
+      "use_in_specific_populations": null,
+      "adverse_reactions": "ADVERSE REACTIONS Lisinopril and hydrochlorothiazide tablets have been evaluated for safety in 930 patients including 100 patients treated for 50 weeks or more. In clinical trials with lisinopril and hydrochlorothiazide tablets no adverse experiences peculiar to this combination drug have been observed. Adverse experiences that have occurred have been limited to those that have been previously reported with lisinopril or hydrochlorothiazide. The most frequent clinical adverse experiences in controlled trials (including open label extensions) with any combination of lisinopril and hydrochlorothiazide tablets were: dizziness (7.5%), headache (5.2%), cough (3.9%), fatigue (3.7%) and orthostatic effects (3.2%) all of which were more common than in placebo-treated patients. Generally, adverse experiences were mild and transient in nature; but see WARNINGS regarding angioedema and excessive hypotension or syncope. Discontinuation of therapy due to adverse effects was required in 4.4% of patients principally because of dizziness, cough, fatigue and muscle cramps. Adverse experiences occurring in greater than one percent of patients treated with lisinopril plus hydrochlorothiazide in controlled clinical trials are shown below. Percent of Patients in Controlled Studies Clinical adverse experiences occurring in 0.3% to 1.0% of patients in controlled trials included: Lisinopril-Hydrochlorothiazide (n=930) Incidence (discontinuation) Placebo (n=207) Incidence Dizziness 7.5 (0.8) 1.9 Headache 5.2 (0.3) 1.9 Cough 3.9 (0.6) 1.0 Fatigue 3.7 (0.4) 1.0 Orthostatic Effects 3.2 (0.1) 1.0 Diarrhea 2.5 (0.2) 2.4 Nausea 2.2 (0.1) 2.4 Upper Respiratory Infection 2.2 (0.0) 0.0 Muscle Cramps 2.0 (0.4) 0.5 Asthenia 1.8 (0.2) 1.0 Paresthesia 1.5 (0.1) 0.0 Hypotension 1.4 (0.3) 0.5 Vomiting 1.4 (0.1) 0.5 Dyspepsia 1.3 (0.0) 0.0 Rash 1.2 (0.1) 0.5 Impotence 1.2 (0.3) 0.0 Body as a Whole: Chest pain, abdominal pain, syncope, chest discomfort, fever, trauma, virus infection. Cardiovascular: Palpitation, orthostatic hypotension. Digestive: Gastrointestinal cramps, dry mouth, constipation, heartburn. Musculoskeletal: Back pain, shoulder pain, knee pain, back strain, myalgia, foot pain. Nervous/Psychiatric: Decreased libido, vertigo, depression, somnolence. Respiratory: Common cold, nasal congestion, influenza, bronchitis, pharyngeal pain, dyspnea, pulmonary congestion, chronic sinusitis, allergic rhinitis, pharyngeal discomfort. Skin: Flushing, pruritus, skin inflammation, diaphoresis. Special Senses: Blurred vision, tinnitus, otalgia. Urogenital: Urinary tract infection. Angioedema: Angioedema has been reported in patients receiving PRINZIDE, with an incidence higher in Black than in non-Black patients. Angioedema associated with laryngeal edema may be fatal. If angioedema of the face, extremities, lips, tongue, glottis and/or larynx occurs, treatment with PRINZIDE should be discontinued and appropriate therapy instituted immediately. In rare cases, intestinal angioedema has been reported with angiotensin converting enzyme inhibitors including lisinopril. (See WARNINGS ). Hypotension: In clinical trials, adverse effects relating to hypotension occurred as follows: hypotension (1.4 percent), orthostatic hypotension (0.5 percent), other orthostatic effects (3.2 percent). In addition syncope occurred in 0.8 percent of patients (See WARNINGS ). Cough: See PRECAUTIONS - Cough . Clinical Laboratory Test Findings Serum Electrolytes: (See PRECAUTIONS ). Creatinine, Blood Urea Nitrogen: Minor reversible increases in blood urea nitrogen and serum creatinine were observed in patients with essential hypertension treated with lisinopril and hydrochlorothiazide tablets. More marked increases have also been reported and were more likely to occur in patients with renal artery stenosis (See PRECAUTIONS ). Serum Uric Acid, Glucose, Magnesium, Cholesterol, Triglycerides and Calcium: (See PRECAUTIONS ). Hemoglobin and Hematocrit: Small decreases in hemoglobin and hematocrit (mean decreases of approximately 0.5 g% and 1.5 vol%, respectively) occurred frequently in hypertensive patients treated with lisinopril and hydrochlorothiazide tablets but were rarely of clinical importance unless another cause of anemia coexisted. In clinical trials, 0.4% of patients discontinued therapy due to anemia. Liver Function Tests: Rarely, elevations of liver enzymes and/or serum bilirubin have occurred. (See WARNINGS, Hepatic Failure ). Other adverse reactions that have been reported with the individual components are listed below: Lisinopril - In clinical trials adverse reactions which occurred with lisinopril were also seen with lisinopril and hydrochlorothiazide tablets. In addition, and since lisinopril has been marketed, the following adverse reactions have been reported with lisinopril and should be considered potential adverse reactions for lisinopril and hydrochlorothiazide tablets: Body as a Whole: Anaphylactoid reactions (see WARNINGS, Anaphylactoid and Possibly Related Reactions ), malaise, edema, facial edema, pain, pelvic pain, flank pain, chills; Cardiovascular: Cardiac arrest, myocardial infarction or cerebrovascular accident, possibly secondary to excessive hypotension in high risk patients (see WARNINGS, Hypotension ), pulmonary embolism and infarction, worsening of heart failure, arrhythmias (including tachycardia, ventricular tachycardia, atrial tachycardia, atrial fibrillation, bradycardia, and premature ventricular contractions), angina pectoris, transient ischemic attacks, paroxysmal nocturnal dyspnea, decreased blood pressure, peripheral edema, vasculitis; Digestive: Pancreatitis, hepatitis (hepatocellular or cholestatic jaundice) (see WARNINGS, Hepatic Failure ), gastritis, anorexia, flatulence, increased salivation; Endocrine: Diabetes mellitus, syndrome of inappropriate antidiuretic hormone secretion (SIADH); Hematologic: Rare cases of neutropenia, thrombocytopenia, and bone marrow depression have been reported. Hemolytic anemia has been reported; a causal relationship to lisinopril cannot be excluded; Metabolic: Gout, weight loss, dehydration, fluid overload, weight gain; Musculoskeletal: Arthritis, arthralgia, neck pain, hip pain, joint pain, leg pain, arm pain, lumbago; Nervous System/Psychiatric: Ataxia, memory impairment, tremor, insomnia, stroke, nervousness, confusion, peripheral neuropathy (e.g., paresthesia, dysesthesia), spasm, hypersomnia, irritability, mood alterations (including depressive symptoms); hallucinations ; Respiratory: Malignant lung neoplasms, hemoptysis, pulmonary edema, pulmonary infiltrates, eosinophilic pneumonitis, bronchospasm, asthma, pleural effusion, pneumonia, wheezing, orthopnea, painful respiration, epistaxis, laryngitis, sinusitis, pharyngitis, rhinitis, rhinorrhea, chest sound abnormalities; Skin: Urticaria, alopecia, herpes zoster, photosensitivity, skin lesions, skin infections, pemphigus, erythema, psoriasis. Other severe skin reactions (including toxic epidermal necrolysis, Stevens-Johnson syndrome and cutaneous pseudolymphoma) have been reported rarely; causal relationship has not been established; Special Senses: Visual loss, diplopia, photophobia, taste disturbances, olfactory disturbances; Urogenital: Acute renal failure, oliguria, anuria, uremia, progressive azotemia, renal dysfunction (see PRECAUTIONS and DOSAGE AND ADMINISTRATION ), pyelonephritis, dysuria, breast pain. Miscellaneous: A symptom complex has been reported which may include a positive ANA, an elevated erythrocyte sedimentation rate, arthralgia/arthritis, myalgia, fever, vasculitis, leukocytosis, eosinophilia, photosensitivity, rash, and other dermatological manifestations. Fetal/Neonatal Morbidity and Mortality: See WARNINGS , Pregnancy, Lisinopril, Fetal/Neonatal Morbidity and Mortality . Hydrochlorothiazide - Body as a Whole: Weakness; Digestive: Anorexia, gastric irritation, cramping, jaundice (intrahepatic cholestatic jaundice) (See WARNINGS, Hepatic Failure ), pancreatitis, sialadenitis, constipation; Hematologic: Leukopenia, agranulocytosis, thrombocytopenia, aplastic anemia, hemolytic anemia; Musculoskeletal: Muscle spasm; Nervous System/Psychiatric: Restlessness; Renal: Renal failure, renal dysfunction, interstitial nephritis (see WARNINGS ); Skin: Erythema multiforme including Stevens-Johnson syndrome, exfoliative dermatitis including toxic epidermal necrolysis, alopecia; Special Senses: Xanthopsia; Hypersensitivity: Purpura, photosensitivity, urticaria, necrotizing angiitis (vasculitis and cutaneous vasculitis), respiratory distress including pneumonitis and pulmonary edema, anaphylactic reactions. Non-melanoma Skin Cancer Hydrochlorothiazide is associated with an increased risk of non-melanoma skin cancer. In a study conducted in the Sentinel System, increased risk was predominantly for squamous cell carcinoma (SCC) and in white patients taking large cumulative doses. The increased risk for SCC in the overall population was approximately 1 additional case per 16,000 patients per year, and for white patients taking a cumulative dose of \u226550,000 mg the risk increase was approximately 1 additional SCC case for every 6,700 patients per year.",
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00b266d9-ac4a-e931-e063-6294a90a6a0b"
+    }
+  ],
+  "summary": {
+    "triage": "emergent",
+    "suspected_adverse_events": [
+      {
+        "drug": "LISINOPRIL",
+        "event_meddra_pt": "LIP SWELLING",
+        "evidence": {
+          "symptom": "lips feel swollen",
+          "quote": "Since yesterday my lips feel swollen",
+          "timing_plausible": true
+        },
+        "faers_signal": {
+          "ror_lcl95": 3.03957947058331,
+          "nDE": 246,
+          "serious_fraction": 0.7398373983739838
+        },
+        "prediction": {
+          "p_ae_now": 0.8696729654781088,
+          "p_serious_24_72h": 0.6409925736384605
+        },
+        "urgency": "emergent"
+      },
+      {
+        "drug": "LISINOPRIL",
+        "event_meddra_pt": "THROAT TIGHTNESS",
+        "evidence": {
+          "symptom": "throat feels tight",
+          "quote": "my throat feels tight",
+          "timing_plausible": true
+        },
+        "faers_signal": {
+          "ror_lcl95": 1.142624608396509,
+          "nDE": 84,
+          "serious_fraction": 0.7857142857142857
+        },
+        "prediction": {
+          "p_ae_now": 0.5941180697308911,
+          "p_serious_24_72h": 0.4679013482100818
+        },
+        "urgency": "emergent"
+      },
+      {
+        "drug": "LISINOPRIL",
+        "event_meddra_pt": "DYSPNOEA",
+        "evidence": {
+          "symptom": "short of breath",
+          "quote": "I feel a bit short of breath.",
+          "timing_plausible": null
+        },
+        "faers_signal": {
+          "ror_lcl95": 1.8692168445402242,
+          "nDE": 2495,
+          "serious_fraction": 0.7334669338677354
+        },
+        "prediction": {
+          "p_ae_now": 0.506754478584135,
+          "p_serious_24_72h": 0.5416368209952246
+        },
+        "urgency": "emergent"
+      }
+    ],
+    "elevated_risks_to_monitor": [
+      {
+        "drug": "LISINOPRIL",
+        "event_meddra_pt": "JOINT SWELLING",
+        "prediction": {
+          "p_ae_now": null,
+          "p_serious_24_72h": null
+        },
+        "urgency": "monitor"
+      },
+      {
+        "drug": "LISINOPRIL",
+        "event_meddra_pt": "HYPERTENSION",
+        "prediction": {
+          "p_ae_now": null,
+          "p_serious_24_72h": null
+        },
+        "urgency": "monitor"
+      }
+    ],
+    "follow_up_questions": [
+      {
+        "field": "symptoms[2].onset_days_ago",
+        "question": "When did the shortness of breath start (how many days ago)?"
+      },
+      {
+        "field": "symptoms[].severity",
+        "question": "How severe are the lip swelling and throat tightness (mild/moderate/severe), and are they worsening?"
+      },
+      {
+        "field": "symptoms[].progression",
+        "question": "Are the symptoms getting worse, staying the same, or improving since they started?"
+      }
+    ],
+    "safety_note": "Flags indicate possible adverse events based on conversation + FAERS disproportionality; not a diagnosis and does not prove causality."
+  },
+  "triage_text": "TRIAGE: EMERGENT\n- Suspected AE #1: LIP SWELLING (drug: LISINOPRIL, urgency: emergent)\n  Evidence: lips feel swollen | quote: Since yesterday my lips feel swollen\n  Timing plausible: True\n  FAERS: ROR LCL95=3.04 nDE=246 serious_frac=0.74\n- Suspected AE #2: THROAT TIGHTNESS (drug: LISINOPRIL, urgency: emergent)\n  Evidence: throat feels tight | quote: my throat feels tight\n  Timing plausible: True\n  FAERS: ROR LCL95=1.14 nDE=84 serious_frac=0.79\n- Suspected AE #3: DYSPNOEA (drug: LISINOPRIL, urgency: emergent)\n  Evidence: short of breath | quote: I feel a bit short of breath.\n  Timing plausible: None\n  FAERS: ROR LCL95=1.87 nDE=2495 serious_frac=0.73\nFOLLOW-UP QUESTIONS:\n  - When did the shortness of breath start (how many days ago)?\n  - How severe are the lip swelling and throat tightness (mild/moderate/severe), and are they worsening?\n  - Are the symptoms getting worse, staying the same, or improving since they started?\nFlags indicate possible adverse events based on conversation + FAERS disproportionality; not a diagnosis and does not prove causality."
+}
