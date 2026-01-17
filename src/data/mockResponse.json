@@ -1,0 +1,186 @@
+{
+  "creative": {
+    "case_narrative": {
+      "summary": "The patient reports starting lisinopril 10 mg once daily 3 days ago. Since yesterday, they have noticed lip swelling and throat tightness. They also report mild shortness of breath. They deny rash or hives.",
+      "timeline": [
+        "- 3 days ago: Started lisinopril 10 mg once daily.",
+        "- Since yesterday (1 day ago): Lips feel swollen and throat feels tight.",
+        "- Current: Reports mild shortness of breath; denies rash/hives."
+      ],
+      "symptom_evidence": [
+        {
+          "symptom_text": "lip swelling",
+          "meddra_pt": "SWELLING",
+          "onset_days_ago": 1,
+          "quote": "Since yesterday my lips feel swollen"
+        },
+        {
+          "symptom_text": "throat tightness",
+          "meddra_pt": "ANGIOEDEMA",
+          "onset_days_ago": 1,
+          "quote": "my throat feels tight"
+        },
+        {
+          "symptom_text": "shortness of breath",
+          "meddra_pt": "DYSPNOEA",
+          "onset_days_ago": null,
+          "quote": "I feel a bit short of breath."
+        }
+      ]
+    },
+    "why_flagged": {
+      "items": [
+        {
+          "flag_index": 0,
+          "headline": "Possible angioedema after starting lisinopril with airway symptoms",
+          "rationale": "The patient started lisinopril 3 days ago and now reports lip swelling and throat tightness since yesterday, with mild shortness of breath. This combination suggests a potentially serious reaction involving swelling and breathing/airway symptoms temporally associated with lisinopril initiation.",
+          "evidence_quotes": [
+            "I started lisinopril 10 mg once daily 3 days ago.",
+            "Since yesterday my lips feel swollen",
+            "my throat feels tight",
+            "I feel a bit short of breath."
+          ],
+          "uncertainties": [
+            "Onset timing for shortness of breath is not stated.",
+            "Severity of lip swelling is not stated.",
+            "Severity of throat tightness is not stated."
+          ]
+        }
+      ]
+    },
+    "follow_up_questions": {
+      "questions": [
+        "When did the shortness of breath start (how many days ago)?",
+        "How severe is the lip swelling (mild/moderate/severe)?",
+        "How severe is the throat tightness (mild/moderate/severe)?"
+      ]
+    },
+    "patient_script": {
+      "triage": "emergent",
+      "script": "Because you have lip swelling and a tight throat after starting lisinopril, and you also feel short of breath, this could be a serious reaction. Please seek emergency care now.",
+      "emergency_instructions_block": null
+    },
+    "coding_assistant": {
+      "meddra_suggestions": [
+        {
+          "symptom_text": "lip swelling",
+          "current_meddra_pt": "SWELLING",
+          "suggested_meddra_pt": "SWELLING",
+          "note": "Keep as coded based on provided mapping."
+        },
+        {
+          "symptom_text": "throat tightness",
+          "current_meddra_pt": "ANGIOEDEMA",
+          "suggested_meddra_pt": "ANGIOEDEMA",
+          "note": "Keep as coded based on provided mapping."
+        },
+        {
+          "symptom_text": "shortness of breath",
+          "current_meddra_pt": "DYSPNOEA",
+          "suggested_meddra_pt": "DYSPNOEA",
+          "note": "Keep as coded based on provided mapping."
+        }
+      ],
+      "contradictions_or_negation_issues": [
+        {
+          "issue": "Hives were asked about, but the patient only explicitly denied rash; hives denial is not explicitly stated in the patient quote provided for hives.",
+          "evidence_quotes": [
+            "NURSE: Any rash or hives?\nPATIENT: No rash."
+          ],
+          "needs_human_review": true
+        }
+      ],
+      "needs_human_review_tags": [
+        "negation_mapping_hives",
+        "missing_onset_shortness_of_breath",
+        "missing_severity_lip_swelling",
+        "missing_severity_throat_tightness"
+      ]
+    }
+  },
+  "creative_error": null,
+  "summary": {
+    "triage": "emergent",
+    "suspected_adverse_events": [
+      {
+        "drug": "LISINOPRIL",
+        "event_meddra_pt": "ANGIOEDEMA",
+        "evidence": {
+          "symptom": "throat tightness",
+          "quote": "my throat feels tight",
+          "timing_plausible": true
+        },
+        "faers_signal": {
+          "ror_lcl95": 14.08660577445189,
+          "nDE": 1342,
+          "serious_fraction": 0.8852459016393442
+        },
+        "urgency": "emergent"
+      },
+      {
+        "drug": "LISINOPRIL",
+        "event_meddra_pt": "SWELLING",
+        "evidence": {
+          "symptom": "lip swelling",
+          "quote": "Since yesterday my lips feel swollen",
+          "timing_plausible": true
+        },
+        "faers_signal": {
+          "ror_lcl95": 5.243360492213587,
+          "nDE": 1360,
+          "serious_fraction": 0.9014705882352941
+        },
+        "urgency": "emergent"
+      },
+      {
+        "drug": "LISINOPRIL",
+        "event_meddra_pt": "DYSPNOEA",
+        "evidence": {
+          "symptom": "shortness of breath",
+          "quote": "I feel a bit short of breath.",
+          "timing_plausible": null
+        },
+        "faers_signal": {
+          "ror_lcl95": 1.8692168445402242,
+          "nDE": 2495,
+          "serious_fraction": 0.7334669338677354
+        },
+        "urgency": "emergent"
+      }
+    ],
+    "elevated_risks_to_monitor": [
+      {
+        "drug": "LISINOPRIL",
+        "event_meddra_pt": "JOINT SWELLING",
+        "urgency": "monitor"
+      },
+      {
+        "drug": "LISINOPRIL",
+        "event_meddra_pt": "HYPERTENSION",
+        "urgency": "monitor"
+      },
+      {
+        "drug": "LISINOPRIL",
+        "event_meddra_pt": "ABDOMINAL DISCOMFORT",
+        "urgency": "monitor"
+      }
+    ],
+    "follow_up_questions": [
+      {
+        "field": "symptoms[2].onset_days_ago",
+        "question": "When did the shortness of breath start (how many days ago)?"
+      },
+      {
+        "field": "symptoms[0].severity",
+        "question": "How severe is the lip swelling (mild/moderate/severe)?"
+      },
+      {
+        "field": "symptoms[1].severity",
+        "question": "How severe is the throat tightness (mild/moderate/severe)?"
+      }
+    ],
+    "safety_note": "Flags indicate possible adverse events based on conversation + FAERS disproportionality; not a diagnosis and does not prove causality."
+  },
+  "triage_text": "TRIAGE: EMERGENT\n- Suspected AE #1: ANGIOEDEMA (drug: LISINOPRIL, urgency: emergent)\n  Evidence: throat tightness | quote: my throat feels tight\n  Timing plausible: True\n  FAERS: ROR LCL95=14.09 nDE=1342 serious_frac=0.89\n- Suspected AE #2: SWELLING (drug: LISINOPRIL, urgency: emergent)\n  Evidence: lip swelling | quote: Since yesterday my lips feel swollen\n  Timing plausible: True\n  FAERS: ROR LCL95=5.24 nDE=1360 serious_frac=0.90\n- Suspected AE #3: DYSPNOEA (drug: LISINOPRIL, urgency: emergent)\n  Evidence: shortness of breath | quote: I feel a bit short of breath.\n  Timing plausible: None\n  FAERS: ROR LCL95=1.87 nDE=2495 serious_frac=0.73\nFOLLOW-UP QUESTIONS:\n  - When did the shortness of breath start (how many days ago)?\n  - How severe is the lip swelling (mild/moderate/severe)?\n  - How severe is the throat tightness (mild/moderate/severe)?\nFlags indicate possible adverse events based on conversation + FAERS disproportionality; not a diagnosis and does not prove causality."
+  
+}
